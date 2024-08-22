@@ -14,7 +14,7 @@ module.exports = {
       },
       colors: {
         customPrimary: "#2a9d8f",
-        customPrimartLight: "#fefae0",
+        customPrimaryLight: "#fefae0",
         customBg: "#edf6f9",
         customAI: "#2b2d42",
       },

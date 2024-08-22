@@ -9,7 +9,7 @@ export default function Home() {
     {
       role: "assistant",
       content:
-        "hi im the rate my professor support assistant, how can I help you today?",
+        "Hi I'm the Rate My Professor support assistant, how can I help you today?",
     },
   ]);
   const [message, setMessage] = useState("");
@@ -26,8 +26,8 @@ export default function Home() {
     ]);
 
     console.log("the message:", message);
-
     setMessage("");
+    
     const response = fetch("/api/chat", {
       method: "POST",
       headers: {
@@ -83,13 +83,16 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-grow flex-col justify-center items-center">
-        <h1 className="text-6xl font-bold text-center mt-10">
-          Welcome to Professional Insights
+        <h1 className="text-6xl font-bold text-center mt-10 text-customPrimary">
+          Welcome to ProfSight
         </h1>
-        <h2 className="text-2xl text-center mt-5">
+        <h2 className="text-2xl text-center mt-5 text-customAI">
           All in one place to learn about your professors
         </h2>
-        <button className="btn btn-outline mt-8 " onClick={handleTry}>
+        <button
+          className="btn btn-outline mt-8 text-customPrimary border-customPrimary hover:bg-customPrimary hover:text-customPrimaryLight"
+          onClick={handleTry}
+        >
           Try it Now
         </button>
       </div>
