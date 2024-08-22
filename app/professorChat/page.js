@@ -15,7 +15,7 @@ export default function Home() {
     {
       role: "assistant",
       content:
-        "hi im the rate my professor support assistant, how can I help you today?",
+        "Hi I'm the Rate My Professor support assistant, how can I help you today?",
     },
   ]);
   const [message, setMessage] = useState("");
