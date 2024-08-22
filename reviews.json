@@ -1,0 +1,130 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Olivia Nguyen",
+      "subject": "Introduction to Computer Science",
+      "stars": 4,
+      "review": "Professor Nguyen is an excellent lecturer who makes complex topics accessible. Her assignments are challenging but fair, and she is always available to provide extra help during office hours."
+    },
+    {
+      "professor": "Professor Michael Goldstein",
+      "subject": "Organic Chemistry",
+      "stars": 3,
+      "review": "While Professor Goldstein is knowledgeable about the subject matter, his lectures can be dry and he does not provide much guidance on how to approach the challenging problem sets. The exams are also very difficult."
+    },
+    {
+      "professor": "Dr. Sarah Patel",
+      "subject": "Art History",
+      "stars": 5,
+      "review": "Dr. Patel is passionate about art and her enthusiasm is infectious. Her lectures are engaging and she encourages students to think critically about the works we study. The reading load is manageable, and the assignments are interesting and thought-provoking."
+    },
+    {
+      "professor": "Professor Liam Zhao",
+      "subject": "Calculus I",
+      "stars": 2,
+      "review": "I would not recommend taking Calculus I with Professor Zhao. His lectures move too quickly and he is not very responsive to student questions. The grading on exams and assignments is also very harsh."
+    },
+    {
+      "professor": "Dr. Emma Rossi",
+      "subject": "Introduction to Psychology",
+      "stars": 4,
+      "review": "Dr. Rossi is a wonderful professor who clearly cares about her students' learning. Her lectures are engaging and she provides helpful study guides and practice problems. The workload is reasonable, and she is always available to provide additional support."
+    },
+    {
+      "professor": "Professor David Lee",
+      "subject": "Principles of Economics",
+      "stars": 3,
+      "review": "Professor Lee's lectures can be dry and uninspiring. He tends to focus too much on memorizing concepts rather than applying them. The exams are also heavily weighted towards the textbook material rather than class discussions."
+    },
+    {
+      "professor": "Dr. Jessica Huang",
+      "subject": "Molecular Biology",
+      "stars": 4,
+      "review": "Dr. Huang is a knowledgeable and engaging professor who truly cares about her students' understanding of the material. Her lectures are clear and she provides excellent resources for studying. The labs are well-designed and help reinforce the concepts."
+    },
+    {
+      "professor": "Professor Aisha Malik",
+      "subject": "World History",
+      "stars": 5,
+      "review": "Professor Malik is an outstanding lecturer who brings history to life. Her classes are always interesting and thought-provoking. She encourages students to form their own opinions and supports them in developing their critical thinking skills."
+    },
+    {
+      "professor": "Dr. Miguel Fernandez",
+      "subject": "Introduction to Sociology",
+      "stars": 4,
+      "review": "Dr. Fernandez is a passionate and knowledgeable professor who makes complex sociological concepts accessible. His lectures are engaging and he is always open to student questions and discussions. The reading load is manageable, and the assignments are relevant and insightful."
+    },
+    {
+      "professor": "Professor Sophia Ito",
+      "subject": "Quantum Mechanics",
+      "stars": 3,
+      "review": "While Professor Ito is clearly an expert in the field, her lectures can be difficult to follow, and she does not provide sufficient guidance on how to approach the challenging problem sets. The exams are also very demanding and do not always align with the course material."
+    },
+    {
+      "professor": "Dr. Amelia Rodriguez",
+      "subject": "Environmental Science",
+      "stars": 4,
+      "review": "Dr. Rodriguez is a passionate and engaged professor who truly cares about environmental issues. Her lectures are informative and she encourages students to think critically about the topics. The course workload is manageable, and the field trips and hands-on activities enhance the learning experience."
+    },
+    {
+      "professor": "Professor Ethan Kim",
+      "subject": "Principles of Marketing",
+      "stars": 3,
+      "review": "While Professor Kim is knowledgeable about the subject matter, his teaching style can be dry and unengaging. The class is mostly lecture-based, and he does not provide many opportunities for students to apply the concepts in practical scenarios."
+    },
+    {
+      "professor": "Dr. Fatima Malik",
+      "subject": "Developmental Psychology",
+      "stars": 5,
+      "review": "Dr. Malik is an exceptional professor who brings a wealth of knowledge and enthusiasm to her classes. Her lectures are engaging and she provides ample opportunities for discussion and group work. The course material is relevant and well-organized, and she is always available to offer additional support."
+    },
+    {
+      "professor": "Professor Luca Rossi",
+      "subject": "Thermodynamics",
+      "stars": 3,
+      "review": "Professor Rossi is knowledgeable about the subject matter, but his teaching style can be dry and difficult to follow. The course workload is heavy, and the grading on exams and assignments is quite strict. If you're looking for a more interactive and engaging learning experience, this may not be the best choice."
+    },
+    {
+      "professor": "Dr. Nora Patel",
+      "subject": "Comparative Politics",
+      "stars": 4,
+      "review": "Dr. Patel is a passionate and engaging professor who brings a global perspective to the study of politics. Her lectures are informative and she encourages students to think critically about the material. The course workload is reasonable, and she provides ample opportunities for class discussion and debate."
+    },
+    {
+      "professor": "Professor Aiden Chen",
+      "subject": "Principles of Management",
+      "stars": 4,
+      "review": "Professor Chen is a knowledgeable and experienced instructor who brings real-world examples to the classroom. His lectures are clear and he provides useful frameworks for understanding management concepts. The course assignments are challenging but meaningful, and he is always available to offer guidance and support."
+    },
+    {
+      "professor": "Dr. Isabella Moretti",
+      "subject": "Italian Language and Culture",
+      "stars": 5,
+      "review": "Dr. Moretti is an exceptional language professor who creates a warm and supportive learning environment. Her classes are engaging and she uses a variety of teaching methods to help students develop their language skills. The course content is well-designed, and she provides ample opportunities for cultural exploration and immersion."
+    },
+    {
+      "professor": "Professor Liam Ramirez",
+      "subject": "Introduction to Electrical Engineering",
+      "stars": 3,
+      "review": "While Professor Ramirez is clearly knowledgeable about the subject matter, his lectures can be dry and overly technical. He does not always provide clear explanations for the more complex concepts, and the course workload can be quite heavy. If you're looking for a more engaging and supportive learning environment, you may want to consider a different professor."
+    },
+    {
+      "professor": "Dr. Sophia Nguyen",
+      "subject": "Biochemistry",
+      "stars": 4,
+      "review": "Dr. Nguyen is a knowledgeable and dedicated professor who is passionate about her subject. Her lectures are well-organized and she provides helpful resources for studying. The course workload is challenging but manageable, and she is always available to offer additional support and guidance."
+    },
+    {
+      "professor": "Professor Aidan Patel",
+      "subject": "Introduction to Philosophy",
+      "stars": 5,
+      "review": "Professor Patel is an exceptional lecturer who brings a deep understanding and enthusiasm for philosophy to the classroom. His lectures are engaging and thought-provoking, and he encourages students to engage in lively discussions and debates. The course reading material is well-chosen, and the assignments are meaningful and relevant."
+    },
+    {
+      "professor": "Dr. Leila Gomez",
+      "subject": "Human Resource Management",
+      "stars": 4,
+      "review": "Dr. Gomez is a knowledgeable and experienced professor who brings a practical and relevant approach to the study of human resource management. Her lectures are informative and she provides ample opportunities for case studies and group work. The course workload is reasonable, and she is always available to offer guidance and support."
+    }
+  ]
+}
