@@ -42,7 +42,7 @@ export async function POST(req) {
     Professor: ${match.id}
     Review: ${match.metadata.review}
     Subject: ${match.metadata.subject}
-    Stars: ${match.metadata.rating}
+    Stars: ${match.metadata.stars}
     \n\n
     `;
   });
