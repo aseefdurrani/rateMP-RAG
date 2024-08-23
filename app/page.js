@@ -84,7 +84,7 @@ export default function Home() {
       </div>
       <div className="flex flex-grow flex-col justify-center items-center">
         <h1 className="text-6xl font-bold text-center mt-10 text-customPrimary">
-          Welcome to ProfSight
+          Welcome to ProfInsight
         </h1>
         <h2 className="text-2xl text-center mt-5 text-customAI">
           All in one place to learn about your professors

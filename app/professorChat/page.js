@@ -15,7 +15,7 @@ export default function Home() {
     {
       role: "assistant",
       content:
-        "Hi I'm the Rate My Professor support assistant, how can I help you today?",
+        "Hi I'm the Rate My Professor support assistant, also known as ProfInsight.  \nHow can I help you today?",
     },
   ]);
   const [message, setMessage] = useState("");
@@ -63,7 +63,9 @@ export default function Home() {
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
       e.preventDefault(); // Prevent default form submission
-      sendMessage(); // Send the message when Enter is pressed
+      if (message.trim()) {
+        sendMessage(); // Send the message when Enter is pressed, but only if not empty
+      }
     }
   };
 
@@ -103,7 +105,7 @@ export default function Home() {
                 </div>
                 <div className="chat-header text-customAI">
                   {message.role === "assistant"
-                    ? "Professor Assistant"
+                    ? "ProfInsight"
                     : "User"}
                 </div>
                 <div
