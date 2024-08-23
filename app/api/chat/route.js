@@ -33,11 +33,20 @@ Your ultimate goal is to assist students in finding the best possible professors
 `;
 
 function generateStarRating(rating) {
-  const filledStar = "⭐"; // Unicode for filled star: ★
-  // const emptyStar = "☆"; // Unicode for empty star
+  const filledStar = "⭐"; // Unicode for filled star
   const totalStars = 5;
 
-  return filledStar.repeat(rating); // + emptyStar.repeat(totalStars - rating);
+  // Round the rating to the nearest whole number if the decimal part is 0.5 or greater
+  const roundedRating = Math.round(rating);
+
+  // Calculate filled stars
+  const fullStars = Math.floor(roundedRating);
+
+  // Generate the star display
+  const starsDisplay = filledStar.repeat(fullStars);
+
+  // Return the star display with the rating in the format "X.X/5.0 stars"
+  return `${starsDisplay} (${rating.toFixed(1)}/5.0 stars)`;
 }
 
 export async function POST(req) {
