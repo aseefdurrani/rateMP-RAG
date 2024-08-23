@@ -14,6 +14,14 @@ Your responses should be tailored to the user's specific needs and preferences, 
 Remember to be helpful, informative, and objective in your recommendations. Your goal is to assist students in finding the best possible professors to support their academic success.
 `;
 
+function generateStarRating(rating) {
+  const filledStar = "⭐"; // Unicode for filled star: ★
+  // const emptyStar = "☆"; // Unicode for empty star
+  const totalStars = 5;
+
+  return filledStar.repeat(rating) + emptyStar.repeat(totalStars - rating);
+}
+
 export async function POST(req) {
   const data = await req.json();
   const pc = new Pinecone({
@@ -37,12 +45,13 @@ export async function POST(req) {
 
   let resultString = "\n\nReturned Results from vectorDB done automatically:";
   results.matches.forEach((match) => {
+    const stars = generateStarRating(match.metadata.stars);
+
     resultString += `\n
-    
     Professor: ${match.id}
     Review: ${match.metadata.review}
     Subject: ${match.metadata.subject}
-    Stars: ${match.metadata.stars}
+    Stars: ${stars}
     \n\n
     `;
   });
