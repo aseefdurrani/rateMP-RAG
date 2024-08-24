@@ -18,6 +18,10 @@ export default function Home() {
     router.push("/professorChat");
   };
 
+  const handleFilter = () => {
+    router.push("/filter");
+  };
+
   const sendMessage = async () => {
     setMessages((messages) => [
       ...messages,
@@ -27,7 +31,7 @@ export default function Home() {
 
     console.log("the message:", message);
     setMessage("");
-    
+
     const response = fetch("/api/chat", {
       method: "POST",
       headers: {
@@ -60,26 +64,33 @@ export default function Home() {
   };
   return (
     <div className="bg-customBg min-h-screen flex flex-col ">
-      <div className="navbar bg-customPrimary text-white ">
-        <div className="flex-1">
-          <a className="btn btn-ghost text-xl">ProfInsight</a>
-        </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal px-1 ">
-            <li>
-              <details>
-                <summary>Get Started</summary>
-                <ul className="bg-customPrimaryLight rounded-t-none p-2 text-black ">
-                  <li>
-                    <a>Login</a>
-                  </li>
-                  <li>
-                    <a>Sign Up</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-          </ul>
+      <div className="navbar bg-customPrimary text-white justify-between ">
+        <div className="flex w-full justify-between items-center">
+          <div className="flex">
+            <a className="btn btn-ghost text-xl">ProfInsight</a>
+          </div>
+          <div className="flex">
+            <a className="btn btn-ghost text-lg" onClick={handleFilter}>
+              Filter based on your preferences
+            </a>
+          </div>
+          <div className="flex-none">
+            <ul className="menu menu-horizontal px-1 ">
+              <li>
+                <details>
+                  <summary>Get Started</summary>
+                  <ul className="bg-customPrimaryLight rounded-t-none p-2 text-black ">
+                    <li>
+                      <a>Login</a>
+                    </li>
+                    <li>
+                      <a>Sign Up</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="flex flex-grow flex-col justify-center items-center">

@@ -125,6 +125,642 @@
       "subject": "Human Resource Management",
       "stars": 4,
       "review": "Dr. Gomez is a knowledgeable and experienced professor who brings a practical and relevant approach to the study of human resource management. Her lectures are informative and she provides ample opportunities for case studies and group work. The course workload is reasonable, and she is always available to offer guidance and support."
+    },
+    {
+      "professor": "Dr. Carlos Reyes",
+      "subject": "Introduction to Physics",
+      "stars": 4,
+      "review": "Dr. Reyes offers highly recommended lectures that simplify complex concepts. He provides extra resources and is always available during office hours."
+    },
+    {
+      "professor": "Professor Jenna Larson",
+      "subject": "Advanced Calculus",
+      "stars": 2,
+      "review": "Professor Larson needs improvement in making her lectures more engaging. The course material is challenging, and her explanations are often unclear."
+    },
+    {
+      "professor": "Dr. Emily White",
+      "subject": "Cognitive Psychology",
+      "stars": 5,
+      "review": "Dr. White's exemplary teaching style makes learning both fun and informative. Her passion for the subject is evident, and she fosters an interactive learning environment."
+    },
+    {
+      "professor": "Professor Daniel Ortiz",
+      "subject": "Linear Algebra",
+      "stars": 3,
+      "review": "Professor Ortiz is knowledgeable but difficult to follow in lectures. The course content is heavy, and his grading is strict."
+    },
+    {
+      "professor": "Dr. Linda Chen",
+      "subject": "History of the Middle East",
+      "stars": 4,
+      "review": "Dr. Chen provides engaging and well-structured lectures. Her approach to teaching is highly recommended, especially for those interested in interactive learning."
+    },
+    {
+      "professor": "Professor Robert Hamilton",
+      "subject": "Advanced Organic Chemistry",
+      "stars": 2,
+      "review": "Professor Hamilton's teaching style needs improvement. His lectures are difficult to follow, and the workload is overwhelming."
+    },
+    {
+      "professor": "Dr. Susan Park",
+      "subject": "Microeconomics",
+      "stars": 5,
+      "review": "Dr. Park is an exemplary teacher who provides clear and concise explanations. Her interactive learning approach helps students grasp difficult concepts."
+    },
+    {
+      "professor": "Professor Jack Wilson",
+      "subject": "Introduction to Robotics",
+      "stars": 3,
+      "review": "Professor Wilson is knowledgeable but difficult to follow during lectures. The exams are challenging, and the grading system needs improvement."
+    },
+    {
+      "professor": "Dr. Natalie Rossi",
+      "subject": "Ethics in Science",
+      "stars": 4,
+      "review": "Dr. Rossi offers highly recommended lectures that encourage critical thinking. The course workload is reasonable, and she fosters interactive learning."
+    },
+    {
+      "professor": "Professor Henry Clark",
+      "subject": "Philosophy of Mind",
+      "stars": 2,
+      "review": "Professor Clark needs improvement in engaging students. His lectures are dry, and he is difficult to follow. The exams are also very tough."
+    },
+    {
+      "professor": "Dr. Gabriela Lopez",
+      "subject": "Cultural Anthropology",
+      "stars": 5,
+      "review": "Dr. Lopez's teaching is exemplary. She creates an interactive learning environment where students feel encouraged to explore different perspectives."
+    },
+    {
+      "professor": "Professor Ethan Brown",
+      "subject": "Advanced Statistics",
+      "stars": 3,
+      "review": "While Professor Brown is knowledgeable, his lectures can be difficult to follow. The course needs improvement in terms of student engagement."
+    },
+    {
+      "professor": "Dr. Maria Garcia",
+      "subject": "Modern European History",
+      "stars": 4,
+      "review": "Dr. Garcia provides highly recommended lectures that are both informative and engaging. She encourages an interactive learning experience through class discussions."
+    },
+    {
+      "professor": "Professor Sarah Miller",
+      "subject": "Database Systems",
+      "stars": 3,
+      "review": "Professor Miller is knowledgeable but needs improvement in making her lectures more engaging. The course content is difficult to follow at times."
+    },
+    {
+      "professor": "Dr. James Davis",
+      "subject": "Classical Literature",
+      "stars": 4,
+      "review": "Dr. Davis offers highly recommended lectures that make ancient texts accessible. He creates an interactive learning environment with lively discussions."
+    },
+    {
+      "professor": "Professor Anna Kim",
+      "subject": "Environmental Engineering",
+      "stars": 2,
+      "review": "Professor Kim needs improvement in explaining complex concepts clearly. Her lectures are difficult to follow, and the grading system is tough."
+    },
+    {
+      "professor": "Dr. Steven Thompson",
+      "subject": "Software Engineering",
+      "stars": 5,
+      "review": "Dr. Thompson's exemplary teaching style combines theory with practice. His course encourages interactive learning and real-world application."
+    },
+    {
+      "professor": "Professor Julia Nguyen",
+      "subject": "Genetics",
+      "stars": 3,
+      "review": "Professor Nguyen is knowledgeable but difficult to follow during lectures. The course content needs improvement, especially in terms of clarity."
+    },
+    {
+      "professor": "Dr. Alan Stewart",
+      "subject": "Political Theory",
+      "stars": 4,
+      "review": "Dr. Stewart offers highly recommended lectures that encourage deep analysis. His course fosters an interactive learning experience through debates."
+    },
+    {
+      "professor": "Professor Laura Martinez",
+      "subject": "Machine Learning",
+      "stars": 3,
+      "review": "While Professor Martinez is an expert in her field, her lectures can be difficult to follow. The course needs improvement in terms of practical application."
+    },
+    {
+      "professor": "Dr. Allison Smith",
+      "subject": "Digital Signal Processing",
+      "stars": 4,
+      "review": "Dr. Smith provides highly structured lectures that make complex topics easier to understand. She is very supportive and encourages practical application of concepts."
+    },
+    {
+      "professor": "Professor Kevin Johnson",
+      "subject": "Political Economy",
+      "stars": 3,
+      "review": "Professor Johnson is knowledgeable but needs clarification on some key concepts during his lectures. The exams are challenging and require deep understanding."
+    },
+    {
+      "professor": "Dr. Olivia Brown",
+      "subject": "Advanced Genetics",
+      "stars": 5,
+      "review": "Dr. Brown offers exceptional mentorship and is highly recommended for students looking to dive deep into genetics. Her interactive teaching style fosters a great learning environment."
+    },
+    {
+      "professor": "Professor David Green",
+      "subject": "Calculus II",
+      "stars": 2,
+      "review": "Professor Green's lectures need clarification as they are often difficult to follow. The course workload is overwhelming, and the grading system is harsh."
+    },
+    {
+      "professor": "Dr. Emily Turner",
+      "subject": "Philosophy of Religion",
+      "stars": 4,
+      "review": "Dr. Turner provides highly structured and thought-provoking lectures. Her course is highly recommended for those interested in critical analysis and discussion."
+    },
+    {
+      "professor": "Professor Laura Evans",
+      "subject": "Machine Learning Applications",
+      "stars": 3,
+      "review": "Professor Evans is knowledgeable, but her lectures need clarification. The course content is dense, and the practical application of concepts could be better emphasized."
+    },
+    {
+      "professor": "Dr. Samuel Robinson",
+      "subject": "Behavioral Economics",
+      "stars": 5,
+      "review": "Dr. Robinson's exceptional mentorship and highly recommended teaching style make this course a must-take. He fosters an interactive learning environment and encourages practical application."
+    },
+    {
+      "professor": "Professor Susan Taylor",
+      "subject": "Statistics",
+      "stars": 2,
+      "review": "Professor Taylor's lectures need clarification as they are often too fast-paced and difficult to follow. The course workload is overwhelming, especially during exam periods."
+    },
+    {
+      "professor": "Dr. Mark Phillips",
+      "subject": "Neuroscience",
+      "stars": 4,
+      "review": "Dr. Phillips provides highly structured lectures that are both informative and engaging. His course is highly recommended for those interested in neuroscience and its practical applications."
+    },
+    {
+      "professor": "Professor Rachel Martin",
+      "subject": "Cultural Studies",
+      "stars": 3,
+      "review": "Professor Martin is knowledgeable but needs clarification in her explanations. The course content is interesting but can be difficult to grasp at times."
+    },
+    {
+      "professor": "Dr. Amanda Brooks",
+      "subject": "Environmental Policy",
+      "stars": 5,
+      "review": "Dr. Brooks offers exceptional mentorship and fosters an interactive learning environment. Her course is highly recommended for those interested in making a real-world impact."
+    },
+    {
+      "professor": "Professor Ethan Carter",
+      "subject": "Discrete Mathematics",
+      "stars": 2,
+      "review": "Professor Carter's lectures need clarification and can be difficult to follow. The workload is overwhelming, and the exams are very challenging."
+    },
+    {
+      "professor": "Dr. Jessica Williams",
+      "subject": "International Relations",
+      "stars": 4,
+      "review": "Dr. Williams provides highly structured lectures that are both engaging and informative. Her course is highly recommended for those interested in global politics and diplomacy."
+    },
+    {
+      "professor": "Professor Ryan Scott",
+      "subject": "Computer Networks",
+      "stars": 3,
+      "review": "Professor Scott is knowledgeable but needs clarification in his teaching style. The course content is technical and requires a strong foundation in networking."
+    },
+    {
+      "professor": "Dr. Angela Wright",
+      "subject": "Clinical Psychology",
+      "stars": 5,
+      "review": "Dr. Wright offers exceptional mentorship and is highly recommended for students interested in pursuing a career in psychology. Her lectures are engaging, and she encourages practical application of theories."
+    },
+    {
+      "professor": "Professor Peter Adams",
+      "subject": "Quantum Physics",
+      "stars": 2,
+      "review": "Professor Adams' lectures need clarification and can be difficult to understand. The workload is overwhelming, and the exams are very challenging."
+    },
+    {
+      "professor": "Dr. Karen Moore",
+      "subject": "Ethical Philosophy",
+      "stars": 4,
+      "review": "Dr. Moore provides highly structured and insightful lectures. Her course is highly recommended for those interested in deep ethical discussions and critical thinking."
+    },
+    {
+      "professor": "Professor Victor Lee",
+      "subject": "Artificial Intelligence",
+      "stars": 3,
+      "review": "Professor Lee is knowledgeable but needs clarification in his explanations. The course content is interesting but can be difficult to follow at times."
+    },
+    {
+      "professor": "Dr. Sophia Anderson",
+      "subject": "Ecology",
+      "stars": 5,
+      "review": "Dr. Anderson offers exceptional mentorship and creates an interactive learning environment. Her course is highly recommended for those passionate about environmental issues."
+    },
+    {
+      "professor": "Professor Jason Clark",
+      "subject": "Numerical Methods",
+      "stars": 3,
+      "review": "Professor Clark is knowledgeable but needs clarification in his teaching style. The course content is technical and requires a solid understanding of mathematics."
+    },
+    {
+      "professor": "Dr. Martin Sanchez",
+      "subject": "Advanced Calculus",
+      "stars": 4,
+      "review": "Dr. Sanchez explains complex topics in a clear and concise manner. The assignments are challenging, but he is always willing to help during office hours."
+    },
+    {
+      "professor": "Professor Laura Edwards",
+      "subject": "Advanced Genetics",
+      "stars": 5,
+      "review": "Professor Edwards is passionate about genetics and makes the subject exciting. Her lectures are well-structured, and she provides excellent study materials."
+    },
+    {
+      "professor": "Dr. Robert Thompson",
+      "subject": "Advanced Organic Chemistry",
+      "stars": 3,
+      "review": "Dr. Thompson's lectures can be difficult to follow at times, but his lab sessions are well-organized and provide good practical experience."
+    },
+    {
+      "professor": "Professor Megan Clark",
+      "subject": "Advanced Statistics",
+      "stars": 2,
+      "review": "Professor Clark's lectures are fast-paced and difficult to follow. The exams are very challenging, and the grading is strict."
+    },
+    {
+      "professor": "Dr. Emily Watson",
+      "subject": "Art History",
+      "stars": 5,
+      "review": "Dr. Watson is an engaging lecturer who brings art history to life. Her enthusiasm is contagious, and the course materials are thought-provoking."
+    },
+    {
+      "professor": "Professor David Foster",
+      "subject": "Artificial Intelligence",
+      "stars": 4,
+      "review": "Professor Foster provides a solid foundation in AI concepts. His lectures are clear, but the assignments can be quite challenging."
+    },
+    {
+      "professor": "Dr. Sarah Lee",
+      "subject": "Behavioral Economics",
+      "stars": 4,
+      "review": "Dr. Lee's lectures are well-organized, and she provides real-world examples that make the material more relatable. The exams are fair but require thorough preparation."
+    },
+    {
+      "professor": "Professor James Taylor",
+      "subject": "Biochemistry",
+      "stars": 3,
+      "review": "Professor Taylor is knowledgeable, but his lectures can be dry at times. The lab work is well-designed and helps reinforce the concepts."
+    },
+    {
+      "professor": "Dr. Olivia Harris",
+      "subject": "Calculus I",
+      "stars": 4,
+      "review": "Dr. Harris explains calculus concepts clearly and provides helpful examples. The exams are challenging but fair, and she is always available for extra help."
+    },
+    {
+      "professor": "Professor Richard Evans",
+      "subject": "Calculus II",
+      "stars": 3,
+      "review": "Professor Evans' lectures can be difficult to follow, but his office hours are very helpful. The course requires a lot of independent study."
+    },
+    {
+      "professor": "Dr. Lisa Green",
+      "subject": "Classical Literature",
+      "stars": 5,
+      "review": "Dr. Green is an exceptional lecturer who brings ancient texts to life. Her discussions are engaging, and she encourages critical thinking."
+    },
+    {
+      "professor": "Professor Karen Wright",
+      "subject": "Clinical Psychology",
+      "stars": 4,
+      "review": "Professor Wright is a dedicated teacher who cares about her students' success. Her lectures are informative, and she provides useful study materials."
+    },
+    {
+      "professor": "Dr. Henry Wilson",
+      "subject": "Cognitive Psychology",
+      "stars": 4,
+      "review": "Dr. Wilson's lectures are engaging and informative. He uses real-world examples to make complex concepts easier to understand."
+    },
+    {
+      "professor": "Professor Emily Johnson",
+      "subject": "Comparative Politics",
+      "stars": 5,
+      "review": "Professor Johnson's global perspective on politics is both refreshing and enlightening. Her lectures are thought-provoking, and she encourages active participation."
+    },
+    {
+      "professor": "Dr. Michael Roberts",
+      "subject": "Computer Networks",
+      "stars": 3,
+      "review": "Dr. Roberts is knowledgeable, but his lectures can be hard to follow. The course content is challenging, and the exams are difficult."
+    },
+    {
+      "professor": "Professor Linda Davis",
+      "subject": "Cultural Anthropology",
+      "stars": 4,
+      "review": "Professor Davis is passionate about anthropology and makes the subject interesting. Her lectures are engaging, and she encourages class discussions."
+    },
+    {
+      "professor": "Dr. Samuel White",
+      "subject": "Cultural Studies",
+      "stars": 4,
+      "review": "Dr. White's lectures are well-organized, and he brings a critical approach to cultural studies. The readings are challenging but rewarding."
+    },
+    {
+      "professor": "Professor Rachel Brown",
+      "subject": "Database Systems",
+      "stars": 3,
+      "review": "Professor Brown's lectures can be dry, but she provides good practical examples. The assignments are challenging and require a solid understanding of the material."
+    },
+    {
+      "professor": "Dr. Peter Adams",
+      "subject": "Developmental Psychology",
+      "stars": 4,
+      "review": "Dr. Adams' lectures are informative and well-structured. He provides ample opportunities for discussion and group work."
+    },
+    {
+      "professor": "Professor Jennifer Martin",
+      "subject": "Digital Signal Processing",
+      "stars": 5,
+      "review": "Professor Martin is an excellent teacher who makes complex topics accessible. Her assignments are challenging but fair, and she is always available to help."
+    },
+    {
+      "professor": "Dr. Charles King",
+      "subject": "Discrete Mathematics",
+      "stars": 3,
+      "review": "Dr. King is knowledgeable, but his lectures can be difficult to follow. The course requires a lot of independent study and practice."
+    },
+    {
+      "professor": "Professor Laura Bennett",
+      "subject": "Ecology",
+      "stars": 4,
+      "review": "Professor Bennett is passionate about ecology and makes the subject engaging. Her field trips and hands-on activities enhance the learning experience."
+    },
+    {
+      "professor": "Dr. John Carter",
+      "subject": "Environmental Engineering",
+      "stars": 4,
+      "review": "Dr. Carter's lectures are clear and well-organized. He provides practical examples that make the material more relatable."
+    },
+    {
+      "professor": "Professor William Scott",
+      "subject": "Environmental Policy",
+      "stars": 5,
+      "review": "Professor Scott is an outstanding teacher who brings real-world issues into the classroom. His lectures are engaging, and he encourages critical thinking."
+    },
+    {
+      "professor": "Dr. Jessica Lewis",
+      "subject": "Environmental Science",
+      "stars": 4,
+      "review": "Dr. Lewis' lectures are informative, and she encourages students to think critically about environmental issues. The course workload is manageable."
+    },
+    {
+      "professor": "Professor David Carter",
+      "subject": "Ethical Philosophy",
+      "stars": 5,
+      "review": "Professor Carter is an exceptional lecturer who encourages deep ethical discussions. His course is both challenging and rewarding."
+    },
+    {
+      "professor": "Dr. Alice Moore",
+      "subject": "Ethics in Science",
+      "stars": 4,
+      "review": "Dr. Moore's lectures are thought-provoking and encourage critical thinking. She provides ample opportunities for discussion."
+    },
+    {
+      "professor": "Professor Paul Harris",
+      "subject": "Genetics",
+      "stars": 3,
+      "review": "Professor Harris is knowledgeable, but his lectures can be difficult to follow. The course content is challenging and requires a lot of independent study."
+    },
+    {
+      "professor": "Dr. Olivia Davis",
+      "subject": "History of the Middle East",
+      "stars": 4,
+      "review": "Dr. Davis' lectures are well-organized, and she brings a balanced perspective to Middle Eastern history. The readings are interesting and relevant."
+    },
+    {
+      "professor": "Professor Stephen Walker",
+      "subject": "Human Resource Management",
+      "stars": 4,
+      "review": "Professor Walker is a knowledgeable instructor who provides practical examples. His lectures are clear, and he encourages class participation."
+    },
+    {
+      "professor": "Dr. Laura Green",
+      "subject": "International Relations",
+      "stars": 5,
+      "review": "Dr. Green is an exceptional lecturer who brings a global perspective to the study of international relations. Her course is both engaging and informative."
+    },
+    {
+      "professor": "Professor Daniel Brown",
+      "subject": "Introduction to Computer Science",
+      "stars": 4,
+      "review": "Professor Brown explains computer science concepts in a clear and concise manner. The assignments are challenging but manageable."
+    },
+    {
+      "professor": "Dr. Emily Parker",
+      "subject": "Introduction to Electrical Engineering",
+      "stars": 3,
+      "review": "Dr. Parker is knowledgeable, but her lectures can be dry. The lab sessions are well-organized and provide good practical experience."
+    },
+    {
+      "professor": "Professor Michael Taylor",
+      "subject": "Introduction to Philosophy",
+      "stars": 4,
+      "review": "Professor Taylor's lectures are thought-provoking, and he encourages lively class discussions. The readings are interesting and relevant."
+    },
+    {
+      "professor": "Dr. Olivia White",
+      "subject": "Introduction to Physics",
+      "stars": 4,
+      "review": "Dr. White explains physics concepts clearly and provides helpful examples. The exams are challenging but fair."
+    },
+    {
+      "professor": "Professor Richard Gray",
+      "subject": "Introduction to Psychology",
+      "stars": 4,
+      "review": "Professor Gray is a dedicated teacher who makes psychology accessible to all students. His lectures are engaging, and he provides useful study materials."
+    },
+    {
+      "professor": "Dr. Grace Robinson",
+      "subject": "Quantum Mechanics",
+      "stars": 3,
+      "review": "Dr. Robinson's lectures are detailed but can be difficult to follow. She does, however, provide good resources for studying and is available during office hours."
+    },
+    {
+      "professor": "Professor John Peterson",
+      "subject": "Thermodynamics",
+      "stars": 4,
+      "review": "Professor Peterson makes thermodynamics approachable with clear explanations and practical examples. The workload is challenging but manageable."
+    },
+    {
+      "professor": "Dr. Melissa Johnson",
+      "subject": "Software Engineering",
+      "stars": 5,
+      "review": "Dr. Johnson is an exceptional software engineering professor who combines theory with hands-on projects. Her course is highly recommended."
+    },
+    {
+      "professor": "Professor Steven Lee",
+      "subject": "Statistics",
+      "stars": 3,
+      "review": "Professor Lee's lectures are fast-paced and sometimes hard to follow. However, his assignments help reinforce the material."
+    },
+    {
+      "professor": "Dr. Karen Davis",
+      "subject": "Political Economy",
+      "stars": 4,
+      "review": "Dr. Davis provides insightful lectures on political economy, supported by real-world examples. She encourages critical thinking and class discussions."
+    },
+    {
+      "professor": "Professor Emily Rogers",
+      "subject": "Political Theory",
+      "stars": 5,
+      "review": "Professor Rogers' deep understanding of political theory is evident in her engaging lectures. She encourages lively debates and discussions in class."
+    },
+    {
+      "professor": "Dr. Charles Anderson",
+      "subject": "Quantum Physics",
+      "stars": 3,
+      "review": "Dr. Anderson is knowledgeable but can be difficult to follow at times. The course requires a strong background in physics and a lot of independent study."
+    },
+    {
+      "professor": "Professor David Morgan",
+      "subject": "Principles of Economics",
+      "stars": 4,
+      "review": "Professor Morgan explains economic concepts clearly and provides useful frameworks for understanding the material. The exams are fair but challenging."
+    },
+    {
+      "professor": "Dr. Nancy Parker",
+      "subject": "Principles of Management",
+      "stars": 4,
+      "review": "Dr. Parker provides real-world examples in her management course. Her lectures are clear, and she is always available to offer guidance."
+    },
+    {
+      "professor": "Professor Susan Adams",
+      "subject": "Principles of Marketing",
+      "stars": 3,
+      "review": "Professor Adams is knowledgeable about marketing, but her lectures can be dry. The exams focus heavily on textbook material."
+    },
+    {
+      "professor": "Dr. William Turner",
+      "subject": "Microeconomics",
+      "stars": 4,
+      "review": "Dr. Turner makes microeconomics interesting and relevant to real-world applications. His lectures are engaging, and the workload is reasonable."
+    },
+    {
+      "professor": "Professor Laura Harris",
+      "subject": "Molecular Biology",
+      "stars": 5,
+      "review": "Professor Harris is passionate about molecular biology, and her enthusiasm makes the subject exciting. The labs are well-designed and reinforce the material."
+    },
+    {
+      "professor": "Dr. Thomas Wright",
+      "subject": "Machine Learning",
+      "stars": 4,
+      "review": "Dr. Wright provides a solid introduction to machine learning. His lectures are informative, and the assignments are challenging but rewarding."
+    },
+    {
+      "professor": "Professor Sarah Green",
+      "subject": "Machine Learning Applications",
+      "stars": 3,
+      "review": "Professor Green's lectures can be difficult to follow, but she provides good practical examples. The course requires a strong background in programming."
+    },
+    {
+      "professor": "Dr. Michael Young",
+      "subject": "Numerical Methods",
+      "stars": 4,
+      "review": "Dr. Young's lectures are clear and well-organized. The course content is challenging, but he provides plenty of resources to help students succeed."
+    },
+    {
+      "professor": "Professor Rebecca Brown",
+      "subject": "Human Resource Management",
+      "stars": 4,
+      "review": "Professor Brown provides practical insights into human resource management. Her lectures are engaging, and she encourages class participation."
+    },
+    {
+      "professor": "Dr. Richard Martin",
+      "subject": "Environmental Engineering",
+      "stars": 4,
+      "review": "Dr. Martin provides clear explanations of complex engineering concepts. The labs are well-organized and help reinforce the course material."
+    },
+    {
+      "professor": "Professor Michelle Clark",
+      "subject": "Developmental Psychology",
+      "stars": 4,
+      "review": "Professor Clark's lectures are well-structured, and she provides ample opportunities for discussion. The course workload is reasonable."
+    },
+    {
+      "professor": "Dr. George Wilson",
+      "subject": "Cognitive Psychology",
+      "stars": 4,
+      "review": "Dr. Wilson explains cognitive psychology concepts clearly and provides real-world examples. His exams are challenging but fair."
+    },
+    {
+      "professor": "Professor Barbara King",
+      "subject": "Cultural Anthropology",
+      "stars": 4,
+      "review": "Professor King is passionate about anthropology and makes the subject engaging. Her lectures are informative, and she encourages class discussions."
+    },
+    {
+      "professor": "Dr. Charles Young",
+      "subject": "Comparative Politics",
+      "stars": 4,
+      "review": "Dr. Young provides a balanced and global perspective on politics. His lectures are thought-provoking, and he encourages critical thinking."
+    },
+    {
+      "professor": "Professor Amy Lewis",
+      "subject": "Introduction to Sociology",
+      "stars": 4,
+      "review": "Professor Lewis is an engaging lecturer who makes sociology accessible to all students. Her assignments are relevant, and the reading load is manageable."
+    },
+    {
+      "professor": "Dr. Kevin Adams",
+      "subject": "Ethics in Science",
+      "stars": 5,
+      "review": "Dr. Adams provides thought-provoking lectures on ethics in science. He encourages critical thinking and fosters lively class discussions."
+    },
+    {
+      "professor": "Professor Lisa White",
+      "subject": "Ethical Philosophy",
+      "stars": 4,
+      "review": "Professor White's lectures are both challenging and rewarding. She encourages deep ethical discussions and provides ample opportunities for debate."
+    },
+    {
+      "professor": "Dr. Rachel Brown",
+      "subject": "Environmental Science",
+      "stars": 4,
+      "review": "Dr. Brown is passionate about environmental science, and her enthusiasm is contagious. The course includes interesting field trips and hands-on activities."
+    },
+    {
+      "professor": "Professor Mark Taylor",
+      "subject": "World History",
+      "stars": 4,
+      "review": "Professor Taylor brings history to life with engaging lectures and interesting discussions. He encourages students to think critically about historical events."
+    },
+    {
+      "professor": "Dr. Jessica Smith",
+      "subject": "Modern European History",
+      "stars": 5,
+      "review": "Dr. Smith is an expert in modern European history, and her lectures are both informative and engaging. She encourages students to explore different perspectives."
+    },
+    {
+      "professor": "Professor Thomas Allen",
+      "subject": "Classical Literature",
+      "stars": 4,
+      "review": "Professor Allen's lectures are well-organized and provide deep insights into classical literature. He encourages lively discussions and critical analysis."
+    },
+    {
+      "professor": "Dr. Angela Evans",
+      "subject": "Introduction to Robotics",
+      "stars": 4,
+      "review": "Dr. Evans is a knowledgeable professor who provides a solid introduction to robotics. Her lectures are clear, and the labs are well-organized."
+    },
+    {
+      "professor": "Professor Nathan Wright",
+      "subject": "Discrete Mathematics",
+      "stars": 3,
+      "review": "Professor Wright's lectures can be difficult to follow, but the course content is interesting. The exams are challenging and require a lot of preparation."
     }
   ]
 }
