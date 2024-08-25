@@ -5,7 +5,7 @@ import OpenAI from "openai";
 const systemPrompt = `
 You are an AI assistant created to help students find the best professors for their courses. Your knowledge base contains a comprehensive database of professor reviews, with information about each professor's teaching style, subject expertise, and ratings from previous students.
 
-When a user asks you a question about finding a good professor for a particular subject or course, you will use Retrieval Augmented Generation (RAG) to provide the top 3 professor recommendations that best match the user's query. 
+When a user asks you a question about finding a good professor for a particular subject or course, you will use Retrieval Augmented Generation (RAG) to provide the top 3 professor recommendations that best match the user's query.
 
 To do this, you will first use a retrieval model to search your knowledge base and find the most relevant professor reviews based on the user's query. You will then use a generation model to synthesize a concise response that summarizes the key information about the top 3 recommended professors, including their names, subject areas, star ratings, and brief excerpts from their reviews.
 
@@ -15,19 +15,14 @@ Remember to be helpful, informative, and objective in your recommendations. Your
 `;
 
 function generateStarRating(rating) {
-  const filledStar = "⭐"; // Unicode for filled star
+  const filledStar = "⭐"; 
   const totalStars = 5;
 
-  // Round the rating to the nearest whole number if the decimal part is 0.5 or greater
   const roundedRating = Math.round(rating);
-
-  // Calculate filled stars
   const fullStars = Math.floor(roundedRating);
 
-  // Generate the star display
   const starsDisplay = filledStar.repeat(fullStars);
 
-  // Return the star display with the rating in the format "X.X/5.0 stars"
   return `${starsDisplay} (${rating.toFixed(1)}/5.0 stars)`;
 }
 
@@ -55,14 +50,39 @@ export async function POST(req) {
   let resultString = "\n\nReturned Results from vectorDB done automatically:";
   results.matches.forEach((match) => {
     const stars = generateStarRating(match.metadata.stars);
+    let resultSnippet = "";
 
-    resultString += `\n
-    Professor: ${match.id}
-    Review: ${match.metadata.review}
-    Subject: ${match.metadata.subject}
-    Stars: ${stars}
-    \n\n
-    `;
+    if (match.metadata.url) {
+      // For RMP Data
+      const reviews = JSON.parse(match.metadata.reviews || '[]');
+      let allReviews = reviews.map((review, idx) => `
+        Review ${idx + 1}:
+        - Class: ${review.class}
+        - Quality: ${review.quality}/5.0
+        - Difficulty: ${review.difficulty}/5.0
+        - Review: ${review.review}
+      `).join("\n");
+
+      resultSnippet = `
+      Professor: ${match.metadata.professor}
+      School: ${match.metadata.school}
+      Department: ${match.metadata.department}
+      Stars: ${stars}
+      All Reviews:
+      ${allReviews}
+      URL: ${match.metadata.url}
+      `;
+    } else {
+      // For Prepopulated JSON Data
+      resultSnippet = `
+      Professor: ${match.id}
+      Review: ${match.metadata.review}
+      Subject: ${match.metadata.subject}
+      Stars: ${stars}
+      `;
+    }
+
+    resultString += `\n${resultSnippet}\n\n`;
   });
 
   const lastMessage = data[data.length - 1];

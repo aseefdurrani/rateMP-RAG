@@ -6,7 +6,7 @@ import OpenAI from 'openai';
 
 // Initialize Pinecone
 const pc = new Pinecone({
-  apiKey: process.env.PINECONE_API_KEY, // Use your Pinecone API key from environment variables
+  apiKey: process.env.PINECONE_API_KEY,
 });
 
 async function ensureIndexExists() {
@@ -49,6 +49,7 @@ async function scrapeRMPData(url) {
     const lastName = $('span.NameTitle__LastNameWrapper-dowf0z-2').text().trim();
     const professorName = `${firstName} ${lastName}`;
 
+    const school = $('div.NameTitle__Title-dowf0z-1 a').last().text().trim();
     const department = $('div.NameTitle__Title-dowf0z-1 a.TeacherDepartment__StyledDepartmentLink-fl79e8-0').text().trim();
     const stars = parseFloat($('div.RatingValue__Numerator-qw8sqy-2').text().trim());
     const wouldTakeAgain = $('div.FeedbackItem__FeedbackNumber-uof32n-1').first().text().trim();
@@ -75,6 +76,7 @@ async function scrapeRMPData(url) {
 
     return {
       professor: professorName,
+      school: school,
       department: department,
       stars: stars,
       would_take_again: wouldTakeAgain,
@@ -110,6 +112,7 @@ async function processAndInsertData(data) {
       values: averageEmbedding, // The averaged embedding representing the professor
       metadata: {
         professor: data.professor,
+        school: data.school,
         department: data.department,
         stars: data.stars,
         would_take_again: data.would_take_again,
