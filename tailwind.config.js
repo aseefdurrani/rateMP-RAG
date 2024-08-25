@@ -17,6 +17,7 @@ module.exports = {
         customPrimaryLight: "#fefae0",
         customBg: "#edf6f9",
         customAI: "#2b2d42",
+        darkerPrimary: "#25897d",
       },
     },
   },

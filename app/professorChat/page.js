@@ -1,8 +1,8 @@
 "use client";
-import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import ReactMarkdown from "react-markdown";
+import CustomModal from "../components/CustomModal";
 
 export default function Home() {
   const router = useRouter();
@@ -20,9 +20,17 @@ export default function Home() {
   ]);
   const [message, setMessage] = useState("");
   const [inputLink, setInputLink] = useState(""); // State for the input link
+  const [scrapedData, setScrapedData] = useState(null); // State for storing scraped data
+  const [modalOpen, setModalOpen] = useState(false);  // State to manage modal open/close
+  const [currentReview, setCurrentReview] = useState(""); // State for the review content in the modal
+  const [loading, setLoading] = useState(false); // State to manage loading
+
+  const formatScore = (score) => {
+    return parseFloat(score).toFixed(1) + "/5.0";
+  };
 
   const sendMessage = async () => {
-    if (!message.trim()) return; // Prevent sending empty or whitespace-only messages
+    if (!message.trim()) return;
 
     setMessages((messages) => [
       ...messages,
@@ -30,7 +38,6 @@ export default function Home() {
       { role: "assistant", content: "" },
     ]);
 
-    console.log("the message:", message);
     setMessage("");
 
     const response = fetch("/api/chat", {
@@ -66,29 +73,40 @@ export default function Home() {
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
-      e.preventDefault(); // Prevent default form submission
+      e.preventDefault();
       if (message.trim()) {
-        sendMessage(); // Send the message when Enter is pressed, but only if not empty
+        sendMessage();
       }
     }
   };
 
   const handleLinkSubmit = async () => {
-    if (!inputLink.trim()) return; // Prevent submitting empty link
-  
+    if (!inputLink.trim()) return;
+
+    setLoading(true); // Set loading to true when starting the request
+
     try {
       const response = await fetch("/api/scrape-and-insert", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ url: inputLink }), // Send the link as JSON
+        body: JSON.stringify({ url: inputLink }),
       });
-  
+
       if (response.ok) {
         const result = await response.json();
-        console.log("Link submitted and data inserted:", result);
-        // Optionally, display a success message or update the UI
+        if (result.metadata) {
+          if (result.metadata.reviews) {
+            result.metadata.reviews = JSON.parse(result.metadata.reviews);
+          }
+          setScrapedData(result.metadata);
+          alert("Link processed successfully, and data inserted into Pinecone!");
+          console.log("Link submitted and data inserted:", result);
+        } else {
+          alert("No metadata received.");
+          console.log("No metadata received:", result);
+        }
       } else {
         const errorData = await response.json();
         console.error("Failed to submit link:", errorData);
@@ -98,10 +116,20 @@ export default function Home() {
       console.error("Error submitting link:", error);
       alert(`Error: ${error.message}`);
     }
-  
+
+    setLoading(false); // Set loading to false after the request is complete
     setInputLink(""); // Clear the input field after submission
   };
-    
+
+  const openModal = (review) => {
+    setCurrentReview(review);
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="bg-customBg min-h-screen flex flex-col">
       <div className="navbar bg-customPrimary text-white">
@@ -126,13 +154,46 @@ export default function Home() {
                 className="input input-bordered w-full mb-4"
                 value={inputLink}
                 onChange={(e) => setInputLink(e.target.value)}
+                disabled={loading} // Disable input during loading
               />
               <button
-                className="btn bg-customPrimary text-white w-full"
+                className={`btn w-full ${loading ? "bg-gray-400" : "bg-customPrimary text-white"}`}
                 onClick={handleLinkSubmit}
+                disabled={loading} // Disable button during loading
               >
-                Submit Link
+                {loading ? "Loading..." : "Submit Link"}
               </button>
+
+              {/* Display scraped data if available */}
+              {scrapedData && (
+                <div className="mt-4 p-4 bg-customPrimary text-white rounded-lg border border-secondary">
+                  <h3 className="text-lg font-semibold mb-2">Professor Details</h3>
+                  <p><strong>Name:</strong> {scrapedData.professor || 'N/A'}</p>
+                  <p><strong>Department:</strong> {scrapedData.department || 'N/A'}</p>
+                  <p><strong>Stars:</strong> {formatScore(scrapedData.stars)}</p>
+                  <p><strong>Would Take Again:</strong> {scrapedData.would_take_again || 'N/A'}</p>
+                  <p><strong>Difficulty:</strong> {formatScore(scrapedData.overall_difficulty)}</p>
+                  <h4 className="text-md font-semibold mt-4">Most Recent Review:</h4>
+                  {scrapedData.reviews && scrapedData.reviews.length > 0 ? (
+                    <div className="p-2 bg-green-800 text-white border border-primary rounded-lg">
+                      <p><strong>Class:</strong> {scrapedData.reviews[0].class || 'N/A'}</p>
+                      <p><strong>Quality:</strong> {formatScore(scrapedData.reviews[0].quality)}</p>
+                      <p><strong>Difficulty:</strong> {formatScore(scrapedData.reviews[0].difficulty)}</p>
+                      <p>
+                        {scrapedData.reviews[0].review.slice(0, 100)}...
+                        <button
+                          className="text-blue-500 ml-2 underline"
+                          onClick={() => setModalOpen(true)}
+                        >
+                          Read More
+                        </button>
+                      </p>
+                    </div>
+                  ) : (
+                    <p>No reviews available.</p>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* Right side chat section */}
@@ -210,6 +271,18 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Custom Modal */}
+      <CustomModal isOpen={modalOpen} onClose={() => setModalOpen(false)}>
+        <h2 className="text-xl font-semibold mb-4">Full Review</h2>
+        <p>{scrapedData && scrapedData.reviews[0].review}</p>
+        <button
+          onClick={() => setModalOpen(false)}
+          className="mt-4 btn bg-customPrimary text-white"
+        >
+          Close
+        </button>
+      </CustomModal>
     </div>
   );
 }
