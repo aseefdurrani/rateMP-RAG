@@ -146,8 +146,8 @@ export default function Home() {
         <div className="flex flex-col w-full h-full border border-black p-4 space-y-3 max-w-screen-xl">
           <div className="flex flex-grow space-x-4 h-full">
             {/* Left side input section */}
-            <div className="w-1/3 bg-white p-4 border border-gray-300 rounded-lg">
-              <h2 className="text-xl font-semibold mb-4">Submit a Professor Link</h2>
+            <div className="w-1/3 bg p-4 border border-gray-300 rounded-lg">
+              <h2 className="text-xl text-customPrimary font-semibold mb-4">Submit a Professor Link</h2>
               <input
                 type="text"
                 placeholder="Enter RateMyProfessors link"
