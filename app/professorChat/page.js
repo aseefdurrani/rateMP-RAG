@@ -144,7 +144,7 @@ export default function Home() {
       </div>
       <div className="w-screen h-screen flex justify-center items-center p-4">
         <div className="flex flex-col w-full h-full border border-black p-4 space-y-3 max-w-screen-xl">
-          <div className="flex flex-grow space-x-4">
+          <div className="flex flex-grow space-x-4 h-full">
             {/* Left side input section */}
             <div className="w-1/3 bg-white p-4 border border-gray-300 rounded-lg">
               <h2 className="text-xl font-semibold mb-4">Submit a Professor Link</h2>
@@ -169,6 +169,7 @@ export default function Home() {
                 <div className="mt-4 p-4 bg-customPrimary text-white rounded-lg border border-secondary">
                   <h3 className="text-lg font-semibold mb-2">Professor Details</h3>
                   <p><strong>Name:</strong> {scrapedData.professor || 'N/A'}</p>
+                  <p><strong>School:</strong> {scrapedData.school || 'N/A'}</p>
                   <p><strong>Department:</strong> {scrapedData.department || 'N/A'}</p>
                   <p><strong>Stars:</strong> {formatScore(scrapedData.stars)}</p>
                   <p><strong>Would Take Again:</strong> {scrapedData.would_take_again || 'N/A'}</p>
