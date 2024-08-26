@@ -81,6 +81,21 @@ export default function Filter() {
   const [returnedProfessors, setReturnedProfessors] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
+  // const [displayedProfessors, setDisplayedProfessors] = useState([]);
+
+  // useEffect(() => {
+  //   if (returnedProfessors.length > 0) {
+  //     let index = 0;
+  //     const interval = setInterval(() => {
+  //       setDisplayedProfessors((prev) => [...prev, returnedProfessors[index]]);
+  //       index++;
+  //       if (index === returnedProfessors.length) {
+  //         clearInterval(interval);
+  //       }
+  //     }, 300); // Adjust the delay as needed
+  //   }
+  // }, [returnedProfessors]);
+
   const handleFilterSubmit = () => {
     setSelectedFilters([
       selectedRating,
