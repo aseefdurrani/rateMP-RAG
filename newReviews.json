@@ -1,0 +1,814 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Evelyn Thompson",
+      "subject": "Artificial Intelligence",
+      "stars": 4.5,
+      "review": "Dr. Thompson is a fantastic AI professor who keeps the class engaging with real-world examples. The projects are tough but incredibly rewarding, and she provides ample resources to help students succeed. Be prepared for a heavy workload, but the consensus is that it's worth it."
+    },
+    {
+      "professor": "Professor Jason Liu",
+      "subject": "Artificial Intelligence",
+      "stars": 3.2,
+      "review": "Professor Liu knows his stuff, but the lectures can be a bit dense at times. The assignments are challenging and require a good amount of independent research. Most students agree that the difficulty is manageable if you stay on top of the material."
+    },
+    {
+      "professor": "Dr. Rachel Patel",
+      "subject": "Artificial Intelligence",
+      "stars": 1.8,
+      "review": "Dr. Patel's AI course is incredibly difficult. The workload is overwhelming, and the lectures are not clear enough to help you tackle the assignments. Many students struggle to keep up, and the consensus is that it’s one of the tougher AI classes offered."
+    },
+    {
+      "professor": "Dr. Sarah Williams",
+      "subject": "Biochemistry",
+      "stars": 4.3,
+      "review": "Dr. Williams is an excellent biochemistry professor. Her explanations are clear, and the exams reflect the material covered in lectures. The workload is heavy, but if you put in the effort, you will do well. Most students agree that she’s one of the best in the department."
+    },
+    {
+      "professor": "Professor Daniel Kim",
+      "subject": "Biochemistry",
+      "stars": 3.5,
+      "review": "Professor Kim’s biochemistry class is tough, but he provides a lot of practice problems that are similar to the exams. The lectures can be dry at times, but with enough effort, you can do well. The consensus among students is mixed, with some finding it challenging but fair."
+    },
+    {
+      "professor": "Dr. Elizabeth Carter",
+      "subject": "Biochemistry",
+      "stars": 1.7,
+      "review": "Dr. Carter’s biochemistry course is notorious for being difficult. The workload is immense, and her exams are tricky. Many students feel that her explanations are not sufficient, making it hard to keep up with the content. Overall, the consensus is that it’s a very tough class."
+    },
+    {
+      "professor": "Dr. James Anderson",
+      "subject": "Calculus I",
+      "stars": 4.2,
+      "review": "Dr. Anderson is an outstanding calculus professor. His lectures are clear, and he provides plenty of examples to ensure that students understand the material. The workload is reasonable, and most students agree that he makes Calculus I more approachable."
+    },
+    {
+      "professor": "Professor Emily Garcia",
+      "subject": "Calculus I",
+      "stars": 3.4,
+      "review": "Professor Garcia’s Calculus I course is challenging but fair. The lectures cover the material well, but you’ll need to spend time outside of class practicing. The consensus is that it’s manageable if you’re willing to put in the effort."
+    },
+    {
+      "professor": "Dr. Steven Martinez",
+      "subject": "Calculus I",
+      "stars": 1.9,
+      "review": "Dr. Martinez’s Calculus I class is extremely difficult. The lectures are confusing, and the workload is intense. Many students find it hard to follow his teaching style, and the exams are particularly tough. The general consensus is that it’s a very challenging course."
+    },
+    {
+      "professor": "Dr. Robert Allen",
+      "subject": "Calculus II",
+      "stars": 4.4,
+      "review": "Dr. Allen is an excellent Calculus II professor. His lectures are well-structured, and he provides clear explanations for complex topics. The workload is challenging but fair, and most students agree that his teaching style makes the material more accessible."
+    },
+    {
+      "professor": "Professor Laura Smith",
+      "subject": "Calculus II",
+      "stars": 3.3,
+      "review": "Professor Smith’s Calculus II course is demanding, but she offers plenty of office hours to help students. The exams are tough, and you’ll need to practice a lot on your own. The consensus is that the class is challenging but manageable with the right effort."
+    },
+    {
+      "professor": "Dr. Henry Chang",
+      "subject": "Calculus II",
+      "stars": 1.6,
+      "review": "Dr. Chang’s Calculus II class is extremely difficult. The lectures are confusing, and the workload is overwhelming. Many students struggle with his teaching style, and the exams are notoriously hard. Overall, the consensus is that this course is a real challenge."
+    },
+    {
+      "professor": "Dr. Abigail Johnson",
+      "subject": "Classical Literature",
+      "stars": 4.5,
+      "review": "Dr. Johnson is a fantastic professor for Classical Literature. Her passion for the subject is infectious, and she encourages deep discussions in class. The reading load is heavy, but the insights you gain make it worth it. Most students agree that she’s one of the best."
+    },
+    {
+      "professor": "Professor Mark Thompson",
+      "subject": "Classical Literature",
+      "stars": 3.6,
+      "review": "Professor Thompson’s Classical Literature class is interesting, but the reading workload can be a bit overwhelming. His lectures are engaging, but you’ll need to stay on top of the material to do well. The consensus is that it’s a good class, though challenging at times."
+    },
+    {
+      "professor": "Dr. Emily Davis",
+      "subject": "Classical Literature",
+      "stars": 1.7,
+      "review": "Dr. Davis’ Classical Literature course is very difficult. The reading assignments are extensive, and her lectures do not always clarify the material. Many students feel that the workload is too much, and the exams are quite tough. Overall, the consensus is that it’s a challenging course."
+    },
+    {
+      "professor": "Dr. Nathan Brown",
+      "subject": "Cognitive Psychology",
+      "stars": 4.3,
+      "review": "Dr. Brown is an excellent professor for Cognitive Psychology. His lectures are clear and engaging, and the exams reflect what’s covered in class. The workload is reasonable, and most students agree that they leave the course with a solid understanding of the material."
+    },
+    {
+      "professor": "Professor Sophia Clarke",
+      "subject": "Cognitive Psychology",
+      "stars": 3.5,
+      "review": "Professor Clarke’s Cognitive Psychology class is interesting but requires a good deal of reading and independent study. Her lectures are well-organized, and the exams are fair. The consensus is that the class is challenging but rewarding if you put in the effort."
+    },
+    {
+      "professor": "Dr. Alan Roberts",
+      "subject": "Cognitive Psychology",
+      "stars": 1.8,
+      "review": "Dr. Roberts’ Cognitive Psychology course is very difficult. The lectures are dry, and the workload is intense. Many students find it hard to keep up with the material, and the exams are particularly tough. The general consensus is that it’s a very challenging course."
+    },
+    {
+      "professor": "Dr. William Parker",
+      "subject": "Comparative Politics",
+      "stars": 4.2,
+      "review": "Dr. Parker is a knowledgeable and engaging professor for Comparative Politics. His lectures are insightful, and he encourages critical thinking. The workload is manageable, though the readings are dense. Most students agree that his class is both challenging and rewarding."
+    },
+    {
+      "professor": "Professor Sarah Mitchell",
+      "subject": "Comparative Politics",
+      "stars": 3.4,
+      "review": "Professor Mitchell’s Comparative Politics course is interesting, but it requires a lot of reading. Her lectures cover the material well, but you’ll need to be diligent with the assignments. The consensus is that the class is challenging, but with effort, you can do well."
+    },
+    {
+      "professor": "Dr. Thomas Greene",
+      "subject": "Comparative Politics",
+      "stars": 1.9,
+      "review": "Dr. Greene’s Comparative Politics class is tough. The lectures are often hard to follow, and the workload is heavy. Many students find it difficult to keep up with the reading and assignments. Overall, the consensus is that this course is quite challenging."
+    },
+    {
+      "professor": "Dr. Rebecca Williams",
+      "subject": "Computer Networks",
+      "stars": 4.5,
+      "review": "Dr. Williams is an outstanding professor for Computer Networks. Her lectures are clear, and she explains complex topics in an understandable way. The projects are challenging but highly educational. Most students agree that her course is one of the best in the department."
+    },
+    {
+      "professor": "Professor John Harris",
+      "subject": "Computer Networks",
+      "stars": 3.3,
+      "review": "Professor Harris’s Computer Networks course is demanding, with a steep learning curve. The lectures are informative, but you’ll need to spend a lot of time on the projects. The consensus is that the course is difficult but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Emily Foster",
+      "subject": "Computer Networks",
+      "stars": 1.8,
+      "review": "Dr. Foster’s Computer Networks class is incredibly challenging. The lectures are difficult to understand, and the workload is overwhelming. Many students struggle with the projects and exams. The general consensus is that it’s a very tough course."
+    },
+    {
+      "professor": "Dr. Michael Johnson",
+      "subject": "Cultural Anthropology",
+      "stars": 4.3,
+      "review": "Dr. Johnson is an exceptional Cultural Anthropology professor. His lectures are engaging, and he brings the material to life with real-world examples. The workload is reasonable, and most students agree that his class is both enjoyable and educational."
+    },
+    {
+      "professor": "Professor Olivia Martinez",
+      "subject": "Cultural Anthropology",
+      "stars": 3.5,
+      "review": "Professor Martinez’s Cultural Anthropology course is interesting but requires a lot of reading and critical thinking. Her lectures are well-organized, but you’ll need to stay on top of the assignments. The consensus is that the class is challenging but worth the effort."
+    },
+    {
+      "professor": "Dr. David Lee",
+      "subject": "Cultural Anthropology",
+      "stars": 1.7,
+      "review": "Dr. Lee’s Cultural Anthropology class is very difficult. The workload is heavy, and the lectures do not always clarify the material. Many students feel overwhelmed by the assignments and exams. Overall, the consensus is that this course is quite challenging."
+    },
+    {
+      "professor": "Dr. Samuel Carter",
+      "subject": "Database Systems",
+      "stars": 4.3,
+      "review": "Dr. Carter is an excellent professor for Database Systems. His lectures are clear, and he provides practical examples that make the material more understandable. The workload is reasonable, and most students agree that his course is both informative and well-organized."
+    },
+    {
+      "professor": "Professor Angela Rivera",
+      "subject": "Database Systems",
+      "stars": 3.5,
+      "review": "Professor Rivera’s Database Systems course is challenging, but she offers plenty of resources to help students succeed. The projects are demanding, and you’ll need to stay on top of the material. The consensus is that the course is difficult but fair if you put in the effort."
+    },
+    {
+      "professor": "Dr. Patrick Daniels",
+      "subject": "Database Systems",
+      "stars": 1.8,
+      "review": "Dr. Daniels’ Database Systems class is extremely difficult. The lectures are confusing, and the workload is overwhelming. Many students find the assignments and exams to be particularly tough. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Katherine Evans",
+      "subject": "Developmental Psychology",
+      "stars": 4.4,
+      "review": "Dr. Evans is a fantastic professor for Developmental Psychology. Her lectures are engaging and insightful, and she makes complex concepts easy to understand. The workload is reasonable, and most students agree that her course is both interesting and manageable."
+    },
+    {
+      "professor": "Professor James Harris",
+      "subject": "Developmental Psychology",
+      "stars": 3.3,
+      "review": "Professor Harris’s Developmental Psychology course is informative, but the workload can be heavy at times. His lectures are well-structured, but you’ll need to do a lot of reading on your own. The consensus is that the course is challenging but worth it if you stay on track."
+    },
+    {
+      "professor": "Dr. Susan Brooks",
+      "subject": "Developmental Psychology",
+      "stars": 1.7,
+      "review": "Dr. Brooks’ Developmental Psychology class is tough. The lectures are dry, and the workload is intense. Many students struggle to keep up with the material, and the exams are difficult. Overall, the consensus is that this course is very challenging."
+    },
+    {
+      "professor": "Dr. Richard Hamilton",
+      "subject": "Discrete Mathematics",
+      "stars": 4.5,
+      "review": "Dr. Hamilton is an outstanding professor for Discrete Mathematics. His lectures are clear and well-organized, and he provides plenty of examples to help students understand the material. The workload is challenging but fair, and most students agree that his course is excellent."
+    },
+    {
+      "professor": "Professor Lisa Chen",
+      "subject": "Discrete Mathematics",
+      "stars": 3.4,
+      "review": "Professor Chen’s Discrete Mathematics class is demanding, but she explains the concepts well. The assignments require a lot of practice, and you’ll need to stay on top of the material. The consensus is that the course is tough but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Robert Moore",
+      "subject": "Discrete Mathematics",
+      "stars": 1.9,
+      "review": "Dr. Moore’s Discrete Mathematics course is extremely difficult. The lectures are hard to follow, and the workload is intense. Many students find the assignments and exams to be particularly challenging. The general consensus is that this course is one of the toughest."
+    },
+    {
+      "professor": "Dr. Laura Bennett",
+      "subject": "Ecology",
+      "stars": 4.5,
+      "review": "Dr. Bennett is a passionate and knowledgeable professor. Her Ecology course is well-structured, and she provides plenty of real-world examples that make the material engaging. The workload is reasonable, and most students agree that her class is both enjoyable and educational."
+    },
+    {
+      "professor": "Professor David Lee",
+      "subject": "Ecology",
+      "stars": 3.2,
+      "review": "Professor Lee’s Ecology class is interesting, but the workload can be heavy at times. His lectures are informative, but some students find the assignments challenging. The consensus is that the course is manageable if you stay on top of the material."
+    },
+    {
+      "professor": "Dr. Jessica Taylor",
+      "subject": "Ecology",
+      "stars": 1.8,
+      "review": "Dr. Taylor’s Ecology course is very difficult. The lectures are hard to follow, and the workload is overwhelming. Many students struggle to keep up with the material, and the exams are particularly tough. The general consensus is that this course is a real challenge."
+    },
+    {
+      "professor": "Dr. Alan Thompson",
+      "subject": "Environmental Engineering",
+      "stars": 4.4,
+      "review": "Dr. Thompson is an excellent professor for Environmental Engineering. His lectures are clear and well-organized, and he provides practical examples that make the material easier to understand. The workload is challenging but fair, and most students agree that his course is one of the best."
+    },
+    {
+      "professor": "Professor Rachel Morgan",
+      "subject": "Environmental Engineering",
+      "stars": 3.5,
+      "review": "Professor Morgan’s Environmental Engineering course is demanding, but she offers plenty of resources to help students succeed. The projects are tough, and you’ll need to put in a lot of effort. The consensus is that the course is challenging but rewarding."
+    },
+    {
+      "professor": "Dr. Peter Wilson",
+      "subject": "Environmental Engineering",
+      "stars": 1.9,
+      "review": "Dr. Wilson’s Environmental Engineering class is extremely difficult. The lectures are confusing, and the workload is intense. Many students find the assignments and exams to be particularly tough. The general consensus is that this course is one of the hardest in the department."
+    },
+    {
+      "professor": "Dr. Emily White",
+      "subject": "Environmental Policy",
+      "stars": 4.3,
+      "review": "Dr. White is a knowledgeable and engaging professor for Environmental Policy. Her lectures are insightful, and she encourages critical thinking and class discussions. The workload is reasonable, and most students agree that her course is both challenging and rewarding."
+    },
+    {
+      "professor": "Professor Michael Davis",
+      "subject": "Environmental Policy",
+      "stars": 3.4,
+      "review": "Professor Davis’s Environmental Policy class is interesting but requires a lot of reading. His lectures cover the material well, but you’ll need to stay on top of the assignments. The consensus is that the course is tough but manageable if you put in the effort."
+    },
+    {
+      "professor": "Dr. Linda Martinez",
+      "subject": "Environmental Policy",
+      "stars": 1.7,
+      "review": "Dr. Martinez’s Environmental Policy course is very difficult. The reading workload is extensive, and her lectures do not always clarify the material. Many students feel overwhelmed by the assignments and exams. Overall, the consensus is that it’s a very challenging course."
+    },
+    {
+      "professor": "Dr. Hannah Green",
+      "subject": "Environmental Science",
+      "stars": 4.4,
+      "review": "Dr. Green is an outstanding Environmental Science professor. Her lectures are engaging and informative, and she uses real-world examples to make the material more relatable. The workload is manageable, and most students agree that her course is both enjoyable and educational."
+    },
+    {
+      "professor": "Professor Richard Adams",
+      "subject": "Environmental Science",
+      "stars": 3.3,
+      "review": "Professor Adams’ Environmental Science class is interesting, but the workload can be a bit heavy. His lectures are thorough, but some students find the assignments challenging. The consensus is that the course is demanding but fair if you stay on top of the material."
+    },
+    {
+      "professor": "Dr. Karen Phillips",
+      "subject": "Environmental Science",
+      "stars": 1.8,
+      "review": "Dr. Phillips’ Environmental Science course is very difficult. The lectures are hard to follow, and the workload is overwhelming. Many students struggle with the assignments and exams, and the consensus is that this course is particularly challenging."
+    },
+    {
+      "professor": "Dr. Jonathan Miller",
+      "subject": "Ethical Philosophy",
+      "stars": 4.5,
+      "review": "Dr. Miller is a fantastic professor for Ethical Philosophy. His lectures are thought-provoking, and he encourages deep discussions in class. The reading load is substantial, but the material is interesting. Most students agree that his class is both challenging and rewarding."
+    },
+    {
+      "professor": "Professor Emily Stevens",
+      "subject": "Ethical Philosophy",
+      "stars": 3.4,
+      "review": "Professor Stevens’ Ethical Philosophy class is insightful, but the workload can be demanding. Her lectures are engaging, but you’ll need to keep up with the readings to succeed. The consensus is that the course is tough but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Mark Johnson",
+      "subject": "Ethical Philosophy",
+      "stars": 1.7,
+      "review": "Dr. Johnson’s Ethical Philosophy course is very difficult. The reading assignments are extensive, and his lectures do not always clarify the material. Many students feel overwhelmed by the workload and find the exams particularly tough. Overall, the consensus is that it’s a challenging course."
+    },
+    {
+      "professor": "Dr. Susan Edwards",
+      "subject": "Ethics in Science",
+      "stars": 4.3,
+      "review": "Dr. Edwards is an excellent professor for Ethics in Science. Her lectures are well-organized, and she encourages thoughtful discussions on complex ethical issues. The workload is reasonable, and most students agree that her course is both interesting and educational."
+    },
+    {
+      "professor": "Professor David Brown",
+      "subject": "Ethics in Science",
+      "stars": 3.5,
+      "review": "Professor Brown’s Ethics in Science class is insightful but requires a lot of reading and critical thinking. His lectures cover the material well, but you’ll need to put in the effort to keep up with the assignments. The consensus is that the course is challenging but rewarding."
+    },
+    {
+      "professor": "Dr. Linda Roberts",
+      "subject": "Ethics in Science",
+      "stars": 1.9,
+      "review": "Dr. Roberts’ Ethics in Science course is extremely difficult. The workload is heavy, and the lectures do not always clarify the material. Many students find the assignments and exams to be particularly tough. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Rachel Anderson",
+      "subject": "Genetics",
+      "stars": 4.5,
+      "review": "Dr. Anderson is a fantastic professor for Genetics. Her lectures are clear and engaging, and she provides plenty of examples to help students grasp complex concepts. The workload is challenging but fair, and most students agree that her course is both educational and rewarding."
+    },
+    {
+      "professor": "Professor William Johnson",
+      "subject": "Genetics",
+      "stars": 3.4,
+      "review": "Professor Johnson’s Genetics class is interesting but demanding. His lectures cover the material well, but the assignments require a lot of effort. The consensus is that the course is tough but manageable if you stay on top of the material."
+    },
+    {
+      "professor": "Dr. Emily Wright",
+      "subject": "Genetics",
+      "stars": 1.9,
+      "review": "Dr. Wright’s Genetics course is extremely difficult. The lectures are hard to follow, and the workload is overwhelming. Many students find the assignments and exams particularly challenging. The general consensus is that this course is one of the toughest in the department."
+    },
+    {
+      "professor": "Dr. Ahmed El-Sayed",
+      "subject": "History of the Middle East",
+      "stars": 4.4,
+      "review": "Dr. El-Sayed is an excellent professor for History of the Middle East. His lectures are insightful and well-researched, and he encourages thoughtful discussions in class. The workload is reasonable, and most students agree that his course is both informative and engaging."
+    },
+    {
+      "professor": "Professor Sarah Thompson",
+      "subject": "History of the Middle East",
+      "stars": 3.5,
+      "review": "Professor Thompson’s History of the Middle East class is interesting, but the reading workload can be heavy. Her lectures are thorough, and she provides plenty of context for the material. The consensus is that the course is challenging but worth the effort."
+    },
+    {
+      "professor": "Dr. John Reynolds",
+      "subject": "History of the Middle East",
+      "stars": 1.8,
+      "review": "Dr. Reynolds’ History of the Middle East course is very difficult. The lectures are dense, and the workload is extensive. Many students struggle to keep up with the reading and assignments. Overall, the consensus is that this course is quite challenging."
+    },
+    {
+      "professor": "Dr. Lisa Green",
+      "subject": "Human Resource Management",
+      "stars": 4.3,
+      "review": "Dr. Green is an excellent professor for Human Resource Management. Her lectures are practical and well-organized, and she provides plenty of real-world examples. The workload is manageable, and most students agree that her course is both educational and applicable to real-life scenarios."
+    },
+    {
+      "professor": "Professor James Carter",
+      "subject": "Human Resource Management",
+      "stars": 3.4,
+      "review": "Professor Carter’s Human Resource Management class is informative, but the workload can be heavy at times. His lectures cover the material well, but you’ll need to put in consistent effort to do well in the course. The consensus is that the course is challenging but rewarding."
+    },
+    {
+      "professor": "Dr. Karen Lee",
+      "subject": "Human Resource Management",
+      "stars": 1.7,
+      "review": "Dr. Lee’s Human Resource Management course is very difficult. The lectures are dry, and the workload is intense. Many students struggle with the assignments and exams, and the general consensus is that this course is particularly challenging."
+    },
+    {
+      "professor": "Dr. Jennifer Wallace",
+      "subject": "International Relations",
+      "stars": 4.4,
+      "review": "Dr. Wallace is a fantastic professor for International Relations. Her lectures are engaging and insightful, and she brings real-world examples into the classroom. The workload is reasonable, and most students agree that her course is both educational and thought-provoking."
+    },
+    {
+      "professor": "Professor Thomas Bennett",
+      "subject": "International Relations",
+      "stars": 3.3,
+      "review": "Professor Bennett’s International Relations class is interesting, but the reading workload can be heavy. His lectures are thorough, but some students find the material challenging. The consensus is that the course is manageable if you stay on top of the assignments."
+    },
+    {
+      "professor": "Dr. Laura Matthews",
+      "subject": "International Relations",
+      "stars": 1.8,
+      "review": "Dr. Matthews’ International Relations course is very difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the reading and assignments, and the consensus is that this course is particularly challenging."
+    },
+    {
+      "professor": "Dr. Olivia Nguyen",
+      "subject": "Introduction to Computer Science",
+      "stars": 4.5,
+      "review": "Dr. Nguyen is an excellent lecturer who makes complex topics accessible. Her assignments are challenging but fair, and she is always available to provide extra help during office hours. Most students agree that her course is a great introduction to computer science."
+    },
+    {
+      "professor": "Professor Michael Goldstein",
+      "subject": "Introduction to Computer Science",
+      "stars": 3.4,
+      "review": "Professor Goldstein’s Introduction to Computer Science class is informative but challenging. The lectures cover the material well, but you’ll need to spend a lot of time practicing on your own. The consensus is that the course is tough but rewarding if you put in the effort."
+    },
+    {
+      "professor": "Dr. Emily Harris",
+      "subject": "Introduction to Computer Science",
+      "stars": 1.9,
+      "review": "Dr. Harris’ Introduction to Computer Science course is very difficult. The lectures are fast-paced, and the workload is intense. Many students find the assignments and exams to be particularly tough. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Steven Parker",
+      "subject": "Introduction to Electrical Engineering",
+      "stars": 4.3,
+      "review": "Dr. Parker is an outstanding professor for Introduction to Electrical Engineering. His lectures are clear and well-organized, and he provides practical examples to help students understand complex concepts. The workload is challenging but fair, and most students agree that his course is excellent."
+    },
+    {
+      "professor": "Professor Rebecca Miller",
+      "subject": "Introduction to Electrical Engineering",
+      "stars": 3.5,
+      "review": "Professor Miller’s Introduction to Electrical Engineering class is demanding, but she explains the concepts well. The assignments require a lot of effort, and you’ll need to stay on top of the material. The consensus is that the course is tough but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Kevin Turner",
+      "subject": "Introduction to Electrical Engineering",
+      "stars": 1.7,
+      "review": "Dr. Turner’s Introduction to Electrical Engineering course is extremely difficult. The lectures are hard to follow, and the workload is overwhelming. Many students find the assignments and exams particularly challenging. The general consensus is that this course is one of the toughest in the department."
+    },
+    {
+      "professor": "Dr. Alice Thompson",
+      "subject": "Introduction to Philosophy",
+      "stars": 4.5,
+      "review": "Dr. Thompson is an inspiring philosophy professor. Her lectures are thought-provoking, and she encourages deep class discussions. The reading load is substantial but manageable, and most students agree that her course is both intellectually stimulating and rewarding."
+    },
+    {
+      "professor": "Professor James Evans",
+      "subject": "Introduction to Philosophy",
+      "stars": 3.3,
+      "review": "Professor Evans’ Introduction to Philosophy class is interesting but requires a lot of reading and critical thinking. His lectures are well-organized, but some students find the material challenging. The consensus is that the course is tough but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Sarah Collins",
+      "subject": "Introduction to Philosophy",
+      "stars": 1.8,
+      "review": "Dr. Collins’ Introduction to Philosophy course is difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the reading and find the exams particularly tough. The general consensus is that this course is quite challenging."
+    },
+    {
+      "professor": "Dr. Robert Lawson",
+      "subject": "Introduction to Physics",
+      "stars": 4.3,
+      "review": "Dr. Lawson is an excellent professor for Introduction to Physics. His lectures are clear and engaging, and he provides plenty of examples to help students grasp the concepts. The workload is reasonable, and most students agree that his course is both educational and manageable."
+    },
+    {
+      "professor": "Professor Emily White",
+      "subject": "Introduction to Physics",
+      "stars": 3.4,
+      "review": "Professor White’s Introduction to Physics class is challenging but fair. The lectures cover the material well, but you’ll need to practice a lot outside of class. The consensus is that the course is tough but rewarding if you put in the effort."
+    },
+    {
+      "professor": "Dr. John Richards",
+      "subject": "Introduction to Physics",
+      "stars": 1.9,
+      "review": "Dr. Richards’ Introduction to Physics course is extremely difficult. The lectures are fast-paced, and the workload is intense. Many students find the assignments and exams particularly challenging. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Emily Carter",
+      "subject": "Introduction to Psychology",
+      "stars": 4.4,
+      "review": "Dr. Carter is a fantastic professor for Introduction to Psychology. Her lectures are engaging, and she makes complex concepts easy to understand. The workload is reasonable, and most students agree that her course is both interesting and informative."
+    },
+    {
+      "professor": "Professor Mark Davis",
+      "subject": "Introduction to Psychology",
+      "stars": 3.5,
+      "review": "Professor Davis’ Introduction to Psychology class is informative, but the workload can be heavy at times. His lectures are thorough, but you’ll need to stay on top of the readings to succeed. The consensus is that the course is challenging but worth the effort."
+    },
+    {
+      "professor": "Dr. Linda Scott",
+      "subject": "Introduction to Psychology",
+      "stars": 1.7,
+      "review": "Dr. Scott’s Introduction to Psychology course is very difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the material and find the exams tough. The general consensus is that this course is particularly challenging."
+    },
+    {
+      "professor": "Dr. Jason Miller",
+      "subject": "Introduction to Robotics",
+      "stars": 4.5,
+      "review": "Dr. Miller is a fantastic professor for Introduction to Robotics. His lectures are engaging, and he provides hands-on projects that make the material come to life. The workload is challenging but fair, and most students agree that his course is both educational and enjoyable."
+    },
+    {
+      "professor": "Professor Samantha Lee",
+      "subject": "Introduction to Robotics",
+      "stars": 3.3,
+      "review": "Professor Lee’s Introduction to Robotics class is interesting, but the projects require a lot of time and effort. Her lectures are thorough, but some students find the assignments challenging. The consensus is that the course is tough but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Andrew Thompson",
+      "subject": "Introduction to Robotics",
+      "stars": 1.8,
+      "review": "Dr. Thompson’s Introduction to Robotics course is very difficult. The lectures are hard to follow, and the workload is overwhelming. Many students struggle with the projects and find the exams particularly tough. The general consensus is that this course is particularly challenging."
+    },
+    {
+      "professor": "Dr. Laura Jackson",
+      "subject": "Introduction to Sociology",
+      "stars": 4.4,
+      "review": "Dr. Jackson is an excellent professor for Introduction to Sociology. Her lectures are engaging and thought-provoking, and she encourages class discussions. The workload is reasonable, and most students agree that her course is both interesting and informative."
+    },
+    {
+      "professor": "Professor David Chen",
+      "subject": "Introduction to Sociology",
+      "stars": 3.5,
+      "review": "Professor Chen’s Introduction to Sociology class is informative, but the reading workload can be heavy at times. His lectures are well-organized, but you’ll need to stay on top of the assignments to succeed. The consensus is that the course is challenging but rewarding."
+    },
+    {
+      "professor": "Dr. Emily Green",
+      "subject": "Introduction to Sociology",
+      "stars": 1.7,
+      "review": "Dr. Green’s Introduction to Sociology course is difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the material and find the exams tough. The general consensus is that this course is particularly challenging."
+    },
+    {
+      "professor": "Dr. Michael Brown",
+      "subject": "Linear Algebra",
+      "stars": 4.3,
+      "review": "Dr. Brown is an outstanding professor for Linear Algebra. His lectures are clear and well-structured, and he provides plenty of examples to help students understand complex concepts. The workload is challenging but fair, and most students agree that his course is excellent."
+    },
+    {
+      "professor": "Professor Sarah Wilson",
+      "subject": "Linear Algebra",
+      "stars": 3.4,
+      "review": "Professor Wilson’s Linear Algebra class is demanding, but she explains the concepts well. The assignments require a lot of practice, and you’ll need to stay on top of the material. The consensus is that the course is tough but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Kevin Harris",
+      "subject": "Linear Algebra",
+      "stars": 1.9,
+      "review": "Dr. Harris’ Linear Algebra course is extremely difficult. The lectures are fast-paced, and the workload is intense. Many students find the assignments and exams particularly challenging. The general consensus is that this course is one of the toughest in the department."
+    },
+    {
+      "professor": "Dr. Sophia Williams",
+      "subject": "Machine Learning",
+      "stars": 4.5,
+      "review": "Dr. Williams is an outstanding professor for Machine Learning. Her lectures are clear and insightful, and she provides real-world examples that make the material engaging. The workload is challenging, but most students agree that her course is both rewarding and essential for understanding the field."
+    },
+    {
+      "professor": "Professor David Kim",
+      "subject": "Machine Learning",
+      "stars": 3.3,
+      "review": "Professor Kim’s Machine Learning class is interesting but demanding. The assignments are tough, and you’ll need to spend a lot of time coding and understanding algorithms. The consensus is that the course is difficult but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Richard Lee",
+      "subject": "Machine Learning",
+      "stars": 1.8,
+      "review": "Dr. Lee’s Machine Learning course is extremely difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the coding assignments and find the exams particularly tough. The general consensus is that this course is very challenging."
+    },
+    {
+      "professor": "Dr. Emily Foster",
+      "subject": "Microeconomics",
+      "stars": 4.4,
+      "review": "Dr. Foster is a fantastic professor for Microeconomics. Her lectures are engaging and make complex concepts easy to understand. The workload is reasonable, and most students agree that her course is both educational and enjoyable."
+    },
+    {
+      "professor": "Professor Michael Thompson",
+      "subject": "Microeconomics",
+      "stars": 3.4,
+      "review": "Professor Thompson’s Microeconomics class is informative but requires a lot of practice. His lectures cover the material well, but some students find the problem sets challenging. The consensus is that the course is tough but rewarding if you put in the effort."
+    },
+    {
+      "professor": "Dr. Sarah Collins",
+      "subject": "Microeconomics",
+      "stars": 1.7,
+      "review": "Dr. Collins’ Microeconomics course is very difficult. The lectures are hard to follow, and the workload is intense. Many students struggle with the problem sets and find the exams particularly tough. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Jessica Carter",
+      "subject": "Molecular Biology",
+      "stars": 4.3,
+      "review": "Dr. Carter is an excellent professor for Molecular Biology. Her lectures are well-organized and thorough, and she provides plenty of examples to help students understand the material. The workload is challenging but fair, and most students agree that her course is both educational and rewarding."
+    },
+    {
+      "professor": "Professor William Harris",
+      "subject": "Molecular Biology",
+      "stars": 3.5,
+      "review": "Professor Harris’s Molecular Biology class is tough but fair. The lectures cover a lot of material, and the exams are challenging. You’ll need to stay on top of the readings and assignments, but the consensus is that the course is manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Lisa Morgan",
+      "subject": "Molecular Biology",
+      "stars": 1.9,
+      "review": "Dr. Morgan’s Molecular Biology course is extremely difficult. The workload is overwhelming, and the lectures are dense. Many students find the exams particularly challenging, and the general consensus is that this course is one of the toughest in the department."
+    },
+    {
+      "professor": "Dr. Megan Lewis",
+      "subject": "Organic Chemistry",
+      "stars": 4.4,
+      "review": "Dr. Lewis is an excellent professor for Organic Chemistry. Her lectures are clear and thorough, and she provides plenty of practice problems to help students master the material. The workload is challenging, but most students agree that her course is both fair and rewarding."
+    },
+    {
+      "professor": "Professor John Miller",
+      "subject": "Organic Chemistry",
+      "stars": 3.3,
+      "review": "Professor Miller’s Organic Chemistry class is tough but manageable. The lectures are detailed, and you’ll need to spend a lot of time studying outside of class. The consensus is that the course is challenging but fair if you stay on top of the material."
+    },
+    {
+      "professor": "Dr. Sandra Harris",
+      "subject": "Organic Chemistry",
+      "stars": 1.7,
+      "review": "Dr. Harris’ Organic Chemistry course is extremely difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the problem sets and find the exams particularly tough. The general consensus is that this course is one of the hardest in the department."
+    },
+    {
+      "professor": "Dr. Thomas Reed",
+      "subject": "Philosophy of Mind",
+      "stars": 4.5,
+      "review": "Dr. Reed is a fantastic professor for Philosophy of Mind. His lectures are thought-provoking and insightful, and he encourages deep discussions in class. The reading load is substantial but manageable, and most students agree that his course is both intellectually stimulating and rewarding."
+    },
+    {
+      "professor": "Professor Laura Bennett",
+      "subject": "Philosophy of Mind",
+      "stars": 3.4,
+      "review": "Professor Bennett’s Philosophy of Mind class is interesting, but the material can be challenging at times. Her lectures are well-organized, but you’ll need to keep up with the readings to do well. The consensus is that the course is tough but worth the effort."
+    },
+    {
+      "professor": "Dr. William Carter",
+      "subject": "Philosophy of Mind",
+      "stars": 1.8,
+      "review": "Dr. Carter’s Philosophy of Mind course is difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the readings and find the exams particularly tough. The general consensus is that this course is particularly challenging."
+    },
+    {
+      "professor": "Dr. Olivia Parker",
+      "subject": "Philosophy of Religion",
+      "stars": 4.3,
+      "review": "Dr. Parker is an excellent professor for Philosophy of Religion. Her lectures are engaging, and she encourages thoughtful discussions on complex topics. The workload is reasonable, and most students agree that her course is both intellectually stimulating and manageable."
+    },
+    {
+      "professor": "Professor David Thompson",
+      "subject": "Philosophy of Religion",
+      "stars": 3.5,
+      "review": "Professor Thompson’s Philosophy of Religion class is insightful but requires a lot of reading and critical thinking. His lectures are well-structured, but you’ll need to put in consistent effort to keep up with the material. The consensus is that the course is challenging but rewarding."
+    },
+    {
+      "professor": "Dr. Emily Johnson",
+      "subject": "Philosophy of Religion",
+      "stars": 1.9,
+      "review": "Dr. Johnson’s Philosophy of Religion course is very difficult. The reading workload is extensive, and her lectures do not always clarify the material. Many students find the exams particularly tough, and the consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Susan Clark",
+      "subject": "Principles of Economics",
+      "stars": 4.4,
+      "review": "Dr. Clark is a fantastic professor for Principles of Economics. Her lectures are clear and engaging, and she does a great job of making complex concepts accessible. The workload is reasonable, and most students agree that her course is both educational and manageable."
+    },
+    {
+      "professor": "Professor Andrew Johnson",
+      "subject": "Principles of Economics",
+      "stars": 3.5,
+      "review": "Professor Johnson’s Principles of Economics class is informative but requires a lot of practice. His lectures cover the material well, but some students find the problem sets challenging. The consensus is that the course is tough but rewarding if you put in the effort."
+    },
+    {
+      "professor": "Dr. Michael Green",
+      "subject": "Principles of Economics",
+      "stars": 1.8,
+      "review": "Dr. Green’s Principles of Economics course is very difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the problem sets and find the exams particularly tough. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Linda Evans",
+      "subject": "Principles of Management",
+      "stars": 4.3,
+      "review": "Dr. Evans is an excellent professor for Principles of Management. Her lectures are well-organized and practical, and she provides plenty of real-world examples. The workload is reasonable, and most students agree that her course is both informative and applicable to real-life scenarios."
+    },
+    {
+      "professor": "Professor Mark Stevens",
+      "subject": "Principles of Management",
+      "stars": 3.4,
+      "review": "Professor Stevens’ Principles of Management class is interesting, but the workload can be heavy at times. His lectures are thorough, but you’ll need to stay on top of the assignments to succeed. The consensus is that the course is challenging but rewarding."
+    },
+    {
+      "professor": "Dr. Karen Taylor",
+      "subject": "Principles of Management",
+      "stars": 1.9,
+      "review": "Dr. Taylor’s Principles of Management course is very difficult. The lectures are fast-paced, and the workload is intense. Many students struggle with the assignments and find the exams particularly tough. The general consensus is that this course is one of the toughest in the department."
+    },
+    {
+      "professor": "Dr. Emily Harris",
+      "subject": "Principles of Marketing",
+      "stars": 4.5,
+      "review": "Dr. Harris is an outstanding professor for Principles of Marketing. Her lectures are engaging and practical, and she provides plenty of real-world examples. The workload is reasonable, and most students agree that her course is both educational and enjoyable."
+    },
+    {
+      "professor": "Professor James Carter",
+      "subject": "Principles of Marketing",
+      "stars": 3.3,
+      "review": "Professor Carter’s Principles of Marketing class is informative but requires a lot of effort. His lectures cover the material well, but the assignments can be challenging. The consensus is that the course is tough but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Sarah Morgan",
+      "subject": "Principles of Marketing",
+      "stars": 1.7,
+      "review": "Dr. Morgan’s Principles of Marketing course is very difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the assignments and find the exams particularly tough. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. James Carter",
+      "subject": "Quantum Mechanics",
+      "stars": 4.5,
+      "review": "Dr. Carter is a brilliant professor for Quantum Mechanics. His lectures are engaging and thorough, making complex concepts more understandable. The workload is challenging but fair, and most students agree that his course is essential for mastering the subject."
+    },
+    {
+      "professor": "Professor Linda Evans",
+      "subject": "Quantum Mechanics",
+      "stars": 3.4,
+      "review": "Professor Evans’ Quantum Mechanics class is tough but manageable. The lectures cover the material well, but you’ll need to spend a lot of time studying on your own. The consensus is that the course is difficult but rewarding if you stay on top of the material."
+    },
+    {
+      "professor": "Dr. William Scott",
+      "subject": "Quantum Mechanics",
+      "stars": 1.8,
+      "review": "Dr. Scott’s Quantum Mechanics course is extremely difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the problem sets and find the exams particularly tough. The general consensus is that this course is one of the hardest in the department."
+    },
+    {
+      "professor": "Dr. Laura Bennett",
+      "subject": "Quantum Physics",
+      "stars": 4.3,
+      "review": "Dr. Bennett is an outstanding professor for Quantum Physics. Her lectures are clear and insightful, and she provides practical examples that make the material engaging. The workload is challenging but fair, and most students agree that her course is both educational and rewarding."
+    },
+    {
+      "professor": "Professor David Kim",
+      "subject": "Quantum Physics",
+      "stars": 3.5,
+      "review": "Professor Kim’s Quantum Physics class is informative but requires a lot of effort. His lectures cover the material well, but the assignments can be tough. The consensus is that the course is challenging but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Emily Harris",
+      "subject": "Quantum Physics",
+      "stars": 1.9,
+      "review": "Dr. Harris’ Quantum Physics course is very difficult. The lectures are fast-paced, and the workload is intense. Many students find the assignments and exams particularly challenging. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Susan Clark",
+      "subject": "Software Engineering",
+      "stars": 4.5,
+      "review": "Dr. Clark is a fantastic professor for Software Engineering. Her lectures are clear and engaging, and she emphasizes practical application of the concepts. The workload is reasonable, and most students agree that her course is both educational and essential for future software engineers."
+    },
+    {
+      "professor": "Professor Andrew Johnson",
+      "subject": "Software Engineering",
+      "stars": 3.4,
+      "review": "Professor Johnson’s Software Engineering class is tough but fair. The lectures cover the material well, but you’ll need to spend a lot of time on projects. The consensus is that the course is challenging but rewarding if you stay on top of the assignments."
+    },
+    {
+      "professor": "Dr. Michael Green",
+      "subject": "Software Engineering",
+      "stars": 1.8,
+      "review": "Dr. Green’s Software Engineering course is very difficult. The projects are demanding, and the workload is overwhelming. Many students struggle with the material and find the exams particularly tough. The general consensus is that this course is one of the more challenging ones."
+    },
+    {
+      "professor": "Dr. Jennifer Lewis",
+      "subject": "Statistics",
+      "stars": 4.3,
+      "review": "Dr. Lewis is an excellent professor for Statistics. Her lectures are clear and well-organized, and she provides plenty of examples to help students understand the concepts. The workload is reasonable, and most students agree that her course is both educational and manageable."
+    },
+    {
+      "professor": "Professor Mark Stevens",
+      "subject": "Statistics",
+      "stars": 3.5,
+      "review": "Professor Stevens’ Statistics class is informative but requires a lot of practice. His lectures cover the material well, but the assignments can be challenging. The consensus is that the course is tough but manageable with consistent effort."
+    },
+    {
+      "professor": "Dr. Karen Taylor",
+      "subject": "Statistics",
+      "stars": 1.9,
+      "review": "Dr. Taylor’s Statistics course is very difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the problem sets and find the exams particularly tough. The general consensus is that this course is one of the harder ones in the department."
+    },
+    {
+      "professor": "Dr. Richard White",
+      "subject": "Thermodynamics",
+      "stars": 4.4,
+      "review": "Dr. White is a brilliant professor for Thermodynamics. His lectures are clear and thorough, and he provides practical examples that make the material more accessible. The workload is challenging but fair, and most students agree that his course is essential for understanding the subject."
+    },
+    {
+      "professor": "Professor Sarah Thompson",
+      "subject": "Thermodynamics",
+      "stars": 3.4,
+      "review": "Professor Thompson’s Thermodynamics class is tough but manageable. The lectures cover the material well, but you’ll need to spend a lot of time on problem sets. The consensus is that the course is challenging but rewarding if you stay on top of the material."
+    },
+    {
+      "professor": "Dr. John Reynolds",
+      "subject": "Thermodynamics",
+      "stars": 1.7,
+      "review": "Dr. Reynolds’ Thermodynamics course is extremely difficult. The lectures are dense, and the workload is overwhelming. Many students struggle with the problem sets and find the exams particularly tough. The general consensus is that this course is one of the hardest in the department."
+    },
+    {
+      "professor": "Dr. Emily Parker",
+      "subject": "World History",
+      "stars": 4.5,
+      "review": "Dr. Parker is a fantastic professor for World History. Her lectures are engaging and well-researched, and she encourages thoughtful discussions in class. The workload is reasonable, and most students agree that her course is both educational and enjoyable."
+    },
+    {
+      "professor": "Professor David Chen",
+      "subject": "World History",
+      "stars": 3.3,
+      "review": "Professor Chen’s World History class is informative but requires a lot of reading. His lectures cover the material well, but you’ll need to stay on top of the assignments to succeed. The consensus is that the course is challenging but worth the effort."
+    },
+    {
+      "professor": "Dr. Linda Green",
+      "subject": "World History",
+      "stars": 1.8,
+      "review": "Dr. Green’s World History course is very difficult. The lectures are dense, and the reading workload is overwhelming. Many students struggle to keep up with the material and find the exams particularly tough. The general consensus is that this course is particularly challenging."
+    }
+  ]
+}

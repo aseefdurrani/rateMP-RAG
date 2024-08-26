@@ -14,7 +14,7 @@ export default function Home() {
   ]);
   const [message, setMessage] = useState("");
 
-  const handleTry = () => {
+  const handleAsk = () => {
     router.push("/professorChat");
   };
 
@@ -69,11 +69,6 @@ export default function Home() {
           <div className="flex">
             <a className="btn btn-ghost text-xl">ProfInsight</a>
           </div>
-          <div className="flex">
-            <a className="btn btn-ghost text-lg" onClick={handleFilter}>
-              Filter based on your preferences
-            </a>
-          </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal px-1 ">
               <li>
@@ -100,12 +95,20 @@ export default function Home() {
         <h2 className="text-2xl text-center mt-5 text-customAI">
           All in one place to learn about your professors
         </h2>
-        <button
-          className="btn btn-outline mt-8 text-customPrimary border-customPrimary hover:bg-customPrimary hover:text-customPrimaryLight"
-          onClick={handleTry}
-        >
-          Try it Now
-        </button>
+        <div className="flex flex-row justify-center items-center gap-4">
+          <button
+            className="btn btn-outline mt-8 text-customPrimary border-customPrimary hover:bg-customPrimary hover:text-customPrimaryLight"
+            onClick={handleAsk}
+          >
+            Search Professors
+          </button>
+          <button
+            className="btn btn-outline mt-8 text-customPrimary border-customPrimary hover:bg-customPrimary hover:text-customPrimaryLight"
+            onClick={handleFilter}
+          >
+            Filter Professors
+          </button>
+        </div>
       </div>
     </div>
   );

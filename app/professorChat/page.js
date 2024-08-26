@@ -11,6 +11,10 @@ export default function Home() {
     router.push("/");
   };
 
+  const handleFilter = () => {
+    router.push("/filter");
+  };
+
   const [messages, setMessages] = useState([
     {
       role: "assistant",
@@ -21,7 +25,7 @@ export default function Home() {
   const [message, setMessage] = useState("");
   const [inputLink, setInputLink] = useState(""); // State for the input link
   const [scrapedData, setScrapedData] = useState(null); // State for storing scraped data
-  const [modalOpen, setModalOpen] = useState(false);  // State to manage modal open/close
+  const [modalOpen, setModalOpen] = useState(false); // State to manage modal open/close
   const [currentReview, setCurrentReview] = useState(""); // State for the review content in the modal
   const [loading, setLoading] = useState(false); // State to manage loading
 
@@ -101,7 +105,9 @@ export default function Home() {
             result.metadata.reviews = JSON.parse(result.metadata.reviews);
           }
           setScrapedData(result.metadata);
-          alert("Link processed successfully, and data inserted into Pinecone!");
+          alert(
+            "Link processed successfully, and data inserted into Pinecone!"
+          );
           console.log("Link submitted and data inserted:", result);
         } else {
           alert("No metadata received.");
@@ -110,7 +116,7 @@ export default function Home() {
       } else {
         const errorData = await response.json();
         console.error("Failed to submit link:", errorData);
-        alert(`Error: ${errorData.error || 'Unknown error occurred'}`);
+        alert(`Error: ${errorData.error || "Unknown error occurred"}`);
       }
     } catch (error) {
       console.error("Error submitting link:", error);
@@ -136,28 +142,35 @@ export default function Home() {
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">ProfInsight</a>
         </div>
-        <div className="flex-none">
-          <button className="btn btn-ghost" onClick={handleHome}>
+        <div className="flex-none gap-4">
+          <button className="btn btn-ghost border-white" onClick={handleFilter}>
+            Filter Professors
+          </button>
+          <button className="btn btn-ghost border-white" onClick={handleHome}>
             Go Home
           </button>
         </div>
       </div>
-      <div className="w-screen h-screen flex justify-center items-center p-4">
+      <div className="w-screen h-[743px] flex justify-center items-center p-4">
         <div className="flex flex-col w-full h-full border border-black p-4 space-y-3 max-w-screen-xl">
           <div className="flex flex-grow space-x-4 h-full">
             {/* Left side input section */}
             <div className="w-1/3 bg p-4 border border-gray-300 rounded-lg">
-              <h2 className="text-xl text-customPrimary font-semibold mb-4">Submit a Professor Link</h2>
+              <h2 className="text-xl text-customPrimary font-semibold mb-4">
+                Submit a Professor Link
+              </h2>
               <input
                 type="text"
                 placeholder="Enter RateMyProfessors link"
-                className="input input-bordered w-full mb-4"
+                className="input input-bordered w-full mb-4 bg-white text-black"
                 value={inputLink}
                 onChange={(e) => setInputLink(e.target.value)}
                 disabled={loading} // Disable input during loading
               />
               <button
-                className={`btn w-full ${loading ? "bg-gray-400" : "bg-customPrimary text-white"}`}
+                className={`btn w-full ${
+                  loading ? "bg-gray-400" : "bg-customPrimary text-white"
+                }`}
                 onClick={handleLinkSubmit}
                 disabled={loading} // Disable button during loading
               >
@@ -167,19 +180,47 @@ export default function Home() {
               {/* Display scraped data if available */}
               {scrapedData && (
                 <div className="mt-4 p-4 bg-customPrimary text-white rounded-lg border border-secondary">
-                  <h3 className="text-lg font-semibold mb-2">Professor Details</h3>
-                  <p><strong>Name:</strong> {scrapedData.professor || 'N/A'}</p>
-                  <p><strong>School:</strong> {scrapedData.school || 'N/A'}</p>
-                  <p><strong>Department:</strong> {scrapedData.department || 'N/A'}</p>
-                  <p><strong>Stars:</strong> {formatScore(scrapedData.stars)}</p>
-                  <p><strong>Would Take Again:</strong> {scrapedData.would_take_again || 'N/A'}</p>
-                  <p><strong>Difficulty:</strong> {formatScore(scrapedData.overall_difficulty)}</p>
-                  <h4 className="text-md font-semibold mt-4">Most Recent Review:</h4>
+                  <h3 className="text-lg font-semibold mb-2">
+                    Professor Details
+                  </h3>
+                  <p>
+                    <strong>Name:</strong> {scrapedData.professor || "N/A"}
+                  </p>
+                  <p>
+                    <strong>School:</strong> {scrapedData.school || "N/A"}
+                  </p>
+                  <p>
+                    <strong>Department:</strong>{" "}
+                    {scrapedData.department || "N/A"}
+                  </p>
+                  <p>
+                    <strong>Stars:</strong> {formatScore(scrapedData.stars)}
+                  </p>
+                  <p>
+                    <strong>Would Take Again:</strong>{" "}
+                    {scrapedData.would_take_again || "N/A"}
+                  </p>
+                  <p>
+                    <strong>Difficulty:</strong>{" "}
+                    {formatScore(scrapedData.overall_difficulty)}
+                  </p>
+                  <h4 className="text-md font-semibold mt-4">
+                    Most Recent Review:
+                  </h4>
                   {scrapedData.reviews && scrapedData.reviews.length > 0 ? (
                     <div className="p-2 bg-green-800 text-white border border-primary rounded-lg">
-                      <p><strong>Class:</strong> {scrapedData.reviews[0].class || 'N/A'}</p>
-                      <p><strong>Quality:</strong> {formatScore(scrapedData.reviews[0].quality)}</p>
-                      <p><strong>Difficulty:</strong> {formatScore(scrapedData.reviews[0].difficulty)}</p>
+                      <p>
+                        <strong>Class:</strong>{" "}
+                        {scrapedData.reviews[0].class || "N/A"}
+                      </p>
+                      <p>
+                        <strong>Quality:</strong>{" "}
+                        {formatScore(scrapedData.reviews[0].quality)}
+                      </p>
+                      <p>
+                        <strong>Difficulty:</strong>{" "}
+                        {formatScore(scrapedData.reviews[0].difficulty)}
+                      </p>
                       <p>
                         {scrapedData.reviews[0].review.slice(0, 100)}...
                         <button
@@ -238,7 +279,7 @@ export default function Home() {
                 <input
                   type="text"
                   placeholder="Message"
-                  className="input input-bordered w-full"
+                  className="input input-bordered w-full bg-white text-black"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   onKeyDown={handleKeyDown} // Handle Enter key press
