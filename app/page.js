@@ -69,7 +69,7 @@ export default function Home() {
           <div className="flex">
             <a className="btn btn-ghost text-xl">ProfInsight</a>
           </div>
-          <div className="flex-none">
+          {/* <div className="flex-none">
             <ul className="menu menu-horizontal px-1 ">
               <li>
                 <details>
@@ -85,7 +85,7 @@ export default function Home() {
                 </details>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex flex-grow flex-col justify-center items-center">
